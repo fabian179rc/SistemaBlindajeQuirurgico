@@ -13,9 +13,9 @@ export function HeroSection() {
 
       <div className="container mx-auto px-4 relative z-10 max-w-3xl md:max-w-6xl lg:max-w-7xl text-center">
         <h1 className="font-heading font-extrabold text-[#EDF2F6] mb-2 md:mb-3 text-[26px] leading-snug sm:text-3xl md:text-5xl md:leading-tight lg:text-6xl">
-          Ayudalo a Mantener su Mente Activa{" "}
+          ¿Notás que Ya No Es el Mismo de Antes?{" "}
           <span className="text-[#E0932E]">
-            y su Autonomía por Más Tiempo
+            Ayudalo a Frenar el Deterioro Antes de que Avance
           </span>
         </h1>
 

@@ -78,11 +78,11 @@ export function BonusesSection() {
                 <img
                   src={`${import.meta.env.BASE_URL}${b.image}`}
                   alt={`Bono ${b.num}: ${b.title}`}
-                  width={700}
-                  height={990}
+                  width={1264}
+                  height={848}
                   loading="lazy"
                   decoding="async"
-                  className="w-full h-full object-contain"
+                  className="w-full h-full object-cover"
                 />
                 <span className="absolute top-1.5 left-1.5 sm:top-2.5 sm:left-2.5 bg-rose-500 text-white font-bold text-[8px] sm:text-[11px] tracking-wide uppercase px-1.5 py-0.5 sm:px-2.5 sm:py-1 rounded sm:rounded-md shadow-sm">
                   Bono {b.num}

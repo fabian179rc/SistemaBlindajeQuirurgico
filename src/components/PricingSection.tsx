@@ -53,7 +53,7 @@ export function PricingSection() {
         <div className="bg-[#16293B] rounded-3xl shadow-2xl shadow-black/30 p-7 md:p-8 text-center">
           <div className="text-[#93A7B8] text-base md:text-lg mb-3">
             Precio Habitual:{" "}
-            <span className="line-through">74 USD</span>
+            <span className="line-through">$87.990</span>
           </div>
 
           <div className="inline-flex items-center gap-2 bg-[#E0932E] text-[#0E1E2E] font-bold px-5 py-2.5 rounded-full text-sm mb-5">
@@ -64,7 +64,7 @@ export function PricingSection() {
             Precio de lanzamiento:
           </p>
           <div className="font-heading text-5xl md:text-7xl font-bold text-[#E0932E] leading-none mb-2 whitespace-nowrap">
-            17 <span className="text-xl md:text-4xl">USD</span>
+            $21.990
           </div>
           <p className="text-[#93A7B8] text-sm mb-6">
             👁️ 14 personas viendo esto ahora
@@ -83,7 +83,7 @@ export function PricingSection() {
             className="flex items-center justify-center gap-2 sm:gap-3 w-full bg-[#E0932E] hover:bg-[#C97D22] text-[#0E1E2E] font-bold text-[11.5px] sm:text-base md:text-lg px-5 py-4 sm:px-6 md:py-5 rounded-full shadow-lg shadow-[#E0932E]/30 transition-colors mb-6 whitespace-nowrap md:whitespace-normal"
           >
             <span className="flex items-center gap-2 text-center">
-              👉 Quiero Acceder a Kit Mente Activa
+              👉 Quiero Acceder a mi Kit Mente Activa
             </span>
             <ArrowRight className="w-4 h-4 sm:w-5 sm:h-5 md:w-6 md:h-6 flex-shrink-0" />
           </motion.a>
@@ -103,7 +103,7 @@ export function PricingSection() {
             </span>
           </div>
 
-          <ul className="mt-6 pt-6 border-t border-white/10 text-left space-y-2 text-sm text-[#93A7B8]">
+          <ul className="mt-6 pt-6 border-t border-white/10 text-left space-y-2 text-sm text-emerald-400">
             <li>✓ Los 6 Volúmenes (Inicial, Intermedio y Avanzado)</li>
             <li>✓ +480 páginas de ejercicios listas para imprimir</li>
             <li>✓ Los 6 Bonos de Regalo Exclusivos incluidos</li>

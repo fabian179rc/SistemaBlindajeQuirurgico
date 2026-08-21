@@ -80,8 +80,8 @@ export function App() {
         },
         offers: {
           "@type": "Offer",
-          price: "17",
-          priceCurrency: "USD",
+          price: "21990",
+          priceCurrency: "ARS",
           availability: "https://schema.org/InStock",
           url: "https://kit-mente-activa.impultienda.ar/checkout",
         },

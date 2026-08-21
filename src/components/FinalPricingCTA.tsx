@@ -25,9 +25,9 @@ export function FinalPricingCTA() {
           <h3 className="font-bold text-[#6FA8C9] mb-2 text-sm md:text-base max-w-xs sm:max-w-none mx-auto">
             🎁 Kit Mente Activa — 6 Volúmenes + 6 Bonos
           </h3>
-          <div className="text-[#93A7B8] line-through mb-2">74 USD</div>
+          <div className="text-[#93A7B8] line-through mb-2">$87.990</div>
           <div className="text-4xl font-bold text-[#E0932E] mb-2">
-            17 USD
+            $21.990
           </div>
           <p className="text-[#93A7B8] text-sm mb-6">
             Pago único. Acceso inmediato y de por vida. Incluye los 6
@@ -45,7 +45,7 @@ export function FinalPricingCTA() {
             className="flex items-center justify-center gap-2 sm:gap-3 w-full bg-[#E0932E] hover:bg-[#C97D22] text-[#0E1E2E] font-bold text-[11.5px] sm:text-base md:text-lg px-5 py-4 sm:px-6 md:py-5 rounded-full shadow-lg shadow-[#E0932E]/30 transition-colors mb-4 whitespace-nowrap md:whitespace-normal"
           >
             <span className="text-center">
-              👉 Quiero Acceder a Kit Mente Activa
+              👉 Quiero Acceder a mi Kit Mente Activa
             </span>
             <ArrowRight className="w-4 h-4 sm:w-5 sm:h-5 md:w-6 md:h-6 flex-shrink-0" />
           </motion.a>
