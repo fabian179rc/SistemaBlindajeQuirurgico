@@ -4,34 +4,34 @@ import { PackageOpen } from "lucide-react";
 
 const modulos = [
   {
-    emoji: "👨‍👩‍👧",
-    title: "Derecho de Familia",
-    desc: "Divorcios, alimentos, cuota, régimen de comunicación y cautelares urgentes.",
+    emoji: "📘",
+    title: "Vol 1: Foco Total",
+    desc: "Atención y concentración: filtrar distracciones y procesar con claridad.",
   },
   {
-    emoji: "⚖️",
-    title: "Derecho Civil",
-    desc: "Daños y perjuicios, usucapión, desalojo y contratos civiles actualizados.",
+    emoji: "📗",
+    title: "Vol 2: Caja de Recuerdos",
+    desc: "Memoria a corto y largo plazo, con juegos de asociación e historias.",
   },
   {
-    emoji: "🏭",
-    title: "Derecho Laboral",
-    desc: "Despidos, trabajo no registrado, ART y actuaciones administrativas.",
+    emoji: "📙",
+    title: "Vol 3: Fluidez Vital",
+    desc: "Lenguaje y comunicación: vocabulario activo y conversación con seguridad.",
   },
   {
-    emoji: "🏦",
-    title: "Derecho Comercial",
-    desc: "Ejecuciones de alquileres, cheques, pagarés y honorarios profesionales.",
+    emoji: "📕",
+    title: "Vol 4: El Arquitecto",
+    desc: "Funciones ejecutivas y lógica: decisiones y autonomía en casa.",
   },
   {
-    emoji: "📋",
-    title: "Escritos de Mero Trámite",
-    desc: "Cédulas, oficios, mandamientos y la folletería procesal del día a día.",
+    emoji: "📓",
+    title: "Vol 5: Precisión Diaria",
+    desc: "Cálculo y razonamiento numérico, con propuestas de la vida real.",
   },
   {
-    emoji: "📚",
-    title: "Doctrina y Jurisprudencia",
-    desc: "Citas y precedentes para sustentar cada pretensión con rigor técnico.",
+    emoji: "📒",
+    title: "Vol 6: Nexo Social",
+    desc: "Cognición y conexión familiar: dinámicas de vínculo en grupo.",
   },
 ];
 
@@ -42,16 +42,15 @@ export function ContentSection() {
         <div className="text-center mb-8">
           <span className="inline-flex items-center gap-2 px-6 py-2.5 mb-5 rounded-full border border-white/15 bg-[#1D3550] text-[#EDF2F6] font-semibold tracking-[0.18em] uppercase text-xs">
             <PackageOpen className="w-4 h-4 text-[#E0932E]" />
-            Qué Incluye el Kit Operativo
+            Los 6 Volúmenes del Kit
           </span>
           <h2 className="font-heading font-bold text-[#EDF2F6] text-3xl md:text-5xl leading-tight mb-4">
-            📦 Organizado por Fueros y{" "}
-            <span className="italic text-[#6FA8C9]">100% Aplicable</span>
+            📚 Todas las Funciones Cognitivas en{" "}
+            <span className="italic text-[#6FA8C9]">un Solo Kit</span>
           </h2>
           <p className="text-sm md:text-base text-[#93A7B8] leading-relaxed max-w-2xl mx-auto">
-            Un compendio integral organizado por fueros, con cada pieza
-            procesal estructurada bajo estándares de técnica legislativa
-            vigente y fundamentos jurídicos incorporados.
+            6 volúmenes con diseño premium y más de 480 ejercicios listos
+            para imprimir y aplicar en casa o en sesiones.
           </p>
         </div>
 

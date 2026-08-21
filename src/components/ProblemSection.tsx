@@ -2,24 +2,24 @@ import React from 'react';
 import { motion } from 'framer-motion';
 const pains = [
 {
-  emoji: '🗂️',
-  title: 'Modelos Dispersos',
-  desc: 'Escritos sueltos y desactualizados. Cada caso nuevo, reconstruís todo desde cero.'
+  emoji: '😟',
+  title: 'Olvidos que Preocupan',
+  desc: 'Lo ves cada vez más olvidadizo o desconectado, y no sabés cómo ayudarlo.'
 },
 {
-  emoji: '⏱️',
-  title: 'Redacción que Demora Horas',
-  desc: 'Demandas y cartas documento insumen tiempo que podrías destinar a la estrategia del caso.'
+  emoji: '🤷',
+  title: 'No Sabés por Dónde Empezar',
+  desc: 'Querés que se mantenga activo, pero no sabés con qué ni cómo.'
 },
 {
-  emoji: '📌',
-  title: 'Fundamentos Inseguros',
-  desc: 'No siempre tenés claro qué doctrina citar ni qué precedente jurisprudencial respalda tu pretensión.'
+  emoji: '🎈',
+  title: 'Materiales que no Respetan',
+  desc: 'Todo lo que encontrás es infantil, aburrido o genérico.'
 },
 {
-  emoji: '🎯',
-  title: 'Imagen Profesional Frágil',
-  desc: 'Sin estructura sólida ni fundamento técnico, el cliente y la contraparte perciben inseguridad.'
+  emoji: '⏳',
+  title: 'Horas Buscando el Material Correcto',
+  desc: 'Sos familiar o profesional y no encontrás algo que inspire confianza.'
 }];
 
 export function ProblemSection() {
@@ -28,25 +28,24 @@ export function ProblemSection() {
       <div className="container mx-auto px-4 max-w-4xl">
         <div className="text-center mb-6">
           <h2 className="font-heading text-3xl md:text-5xl font-bold mb-4 text-[#EDF2F6]">
-            ¿Te falta estructura para trabajar con mayor eficiencia?
+            ¿Tenés un adulto mayor que amás y querés ayudarlo?
           </h2>
           <p className="text-sm md:text-base text-[#93A7B8] leading-relaxed max-w-2xl mx-auto">
-            Conocés el derecho y sabés redactar un escrito. Sin embargo, cada
-            caso nuevo se convierte en horas de búsqueda, armado desde cero y
-            dudas sobre qué fundamento citar o qué plazo no vencer.
+            ¿Y si pudieras ayudarlo a mantener su mente activa con un
+            material creado por especialistas y pensado con el respeto
+            que merece?
           </p>
         </div>
 
         <div className="bg-[#16293B] border border-[#E0932E]/20 text-[#EDF2F6] rounded-2xl p-3 md:p-4 shadow-sm text-center mb-5 max-w-2xl mx-auto">
           <p className="md:text-lg font-medium text-[#DCE6ED] text-[15px]">
-            ⚡ Ese no es un problema de capacidad. Es un problema de sistema.
+            ✨ Sin improvisar. Sin buscar más. Sin materiales que lo hagan
+            sentir un niño.
           </p>
         </div>
 
         <p className="text-center text-sm md:text-base text-[#93A7B8] leading-relaxed max-w-2xl mx-auto mb-5">
-          Si ejercés como abogado independiente, trabajás en un estudio
-          pequeño o acabás de matricularte en Argentina, probablemente ya
-          experimentaste alguna de estas situaciones:
+          Esto te va a sonar familiar:
         </p>
 
         <div className="grid sm:grid-cols-2 gap-2">

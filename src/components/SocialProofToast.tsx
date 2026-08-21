@@ -2,19 +2,17 @@ import React, { useEffect, useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 import { X } from "lucide-react";
 
-const PRODUCT_NAME = "Kit Operativo de Práctica Jurídica";
+const PRODUCT_NAME = "Kit Mente Activa";
 
 const proofs = [
-  { name: "María L.", location: "Buenos Aires", time: "hace 15 minutos" },
-  { name: "Federico G.", location: "Córdoba", time: "hace 8 minutos" },
-  { name: "Valentina R.", location: "Rosario", time: "hace 22 minutos" },
-  { name: "Cristian B.", location: "Mendoza", time: "hace 34 minutos" },
-  { name: "Agustina P.", location: "La Plata", time: "hace 5 minutos" },
-  { name: "Kevin R.", location: "Salta", time: "hace 41 minutos" },
-  { name: "Melisa T.", location: "Mar del Plata", time: "hace 12 minutos" },
-  { name: "Bruno S.", location: "San Miguel de Tucumán", time: "hace 27 minutos" },
-  { name: "Nicole F.", location: "Neuquén", time: "hace 19 minutos" },
-  { name: "Tomás A.", location: "Bahía Blanca", time: "hace 9 minutos" },
+  { name: "Marcela R.", location: "Rosario", time: "hace 15 minutos" },
+  { name: "Diego F.", location: "Mendoza", time: "hace 8 minutos" },
+  { name: "Patricia G.", location: "Santa Fe", time: "hace 22 minutos" },
+  { name: "Soledad M.", location: "Corrientes", time: "hace 34 minutos" },
+  { name: "Roberto C.", location: "Mar del Plata", time: "hace 5 minutos" },
+  { name: "Carla B.", location: "Neuquén", time: "hace 41 minutos" },
+  { name: "Lic. Andrea P.", location: "Córdoba", time: "hace 12 minutos" },
+  { name: "Lic. Vanesa T.", location: "Buenos Aires", time: "hace 27 minutos" },
 ];
 
 const SHOW_DURATION = 7000;
@@ -90,7 +88,7 @@ export function SocialProofToast() {
             <p className="text-white/80 text-[10px] sm:text-[13px] leading-snug mb-1 sm:mb-1.5">
               compró{" "}
               <span className="font-semibold text-emerald-400">
-                <span className="sm:hidden">Kit Operativo</span>
+                <span className="sm:hidden">Kit Mente Activa</span>
                 <span className="hidden sm:inline">{PRODUCT_NAME}</span>
               </span>{" "}
               📗

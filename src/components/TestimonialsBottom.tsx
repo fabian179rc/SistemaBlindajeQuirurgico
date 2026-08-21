@@ -5,23 +5,23 @@ const testimonials = [
 {
   initial: 'M',
   color: 'bg-pink-100 text-pink-700',
-  name: 'María L.',
-  location: 'Abogada Civil — Buenos Aires',
-  text: "Antes cada demanda me llevaba medio día. Ahora adapto el modelo en una hora, con el fundamento jurídico resuelto y sin tener que buscar doctrina por separado."
+  name: 'Marcela R.',
+  location: 'Rosario',
+  text: "Mi mamá ahora espera el momento de los ejercicios como si fuera su actividad favorita del día. Se sienta sola, saca la carpeta y empieza."
 },
 {
-  initial: 'F',
+  initial: 'D',
   color: 'bg-blue-100 text-blue-700',
-  name: 'Federico G.',
-  location: 'Abogado Generalista — Córdoba',
-  text: 'El bono de honorarios me dio el criterio para estructurar el convenio correctamente desde la primera consulta. Dejé de tener problemas de cobro con clientes conflictivos.'
+  name: 'Diego F.',
+  location: 'Mendoza',
+  text: 'Lo compré para mi papá y terminamos haciéndolo juntos. Fue la mejor excusa para pasar tiempo de calidad con él.'
 },
 {
   initial: 'V',
   color: 'bg-emerald-100 text-emerald-700',
-  name: 'Valentina R.',
-  location: 'Abogada Recién Matriculada — Rosario',
-  text: 'Lo usé para mis primeros casos reales. El kit te da el cómo, el cuándo y los modelos que la facultad nunca enseña. Fundamental para quien recién empieza.'
+  name: 'Lic. Vanesa T.',
+  location: 'Terapeuta Ocupacional — Buenos Aires',
+  text: 'Como terapeuta ocupacional, este material me ahorró horas de preparación. El diseño es elegante y los pacientes lo reciben con respeto.'
 }];
 
 export function TestimonialsBottom() {
@@ -31,7 +31,7 @@ export function TestimonialsBottom() {
         <div className="text-center mb-8 flex flex-col items-center">
           <MessageCircle className="w-10 h-10 text-[#E0932E] mb-3" />
           <h2 className="font-heading text-3xl md:text-5xl font-bold text-[#EDF2F6]">
-            Lo Que Dicen Otros Abogados del Kit
+            Lo Que Dicen Familias y Profesionales
           </h2>
         </div>
 

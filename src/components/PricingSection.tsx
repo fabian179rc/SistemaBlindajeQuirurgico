@@ -13,16 +13,14 @@ export function PricingSection() {
           Precio de Lanzamiento
         </span>
         <h2 className="font-heading text-3xl md:text-5xl font-bold text-white leading-tight mb-6">
-          Inversión Única.{" "}
-          <em className="italic font-bold text-[#CFE0EC]">
-            Acceso Permanente.
-          </em>
+          Kit Mente Activa{" "}
+          <em className="italic font-bold text-[#CFE0EC]">Completo</em>
         </h2>
 
         <div className="relative inline-block mb-2 w-full max-w-md mx-auto">
           <img
             src={`${import.meta.env.BASE_URL}mockup9.webp`}
-            alt="Kit Operativo de Práctica Jurídica — Edición 2026"
+            alt="Kit Mente Activa — Estimulación Cognitiva para Adultos Mayores"
             width={900}
             height={900}
             loading="lazy"
@@ -39,7 +37,7 @@ export function PricingSection() {
               }}
             />
             <div className="relative text-center text-white leading-none rotate-12">
-              <div className="text-2xl md:text-3xl font-extrabold">51%</div>
+              <div className="text-2xl md:text-3xl font-extrabold">77%</div>
               <div className="text-[9px] md:text-[10px] font-bold tracking-wide mt-0.5">
                 OFF
               </div>
@@ -54,8 +52,8 @@ export function PricingSection() {
       >
         <div className="bg-[#16293B] rounded-3xl shadow-2xl shadow-black/30 p-7 md:p-8 text-center">
           <div className="text-[#93A7B8] text-base md:text-lg mb-3">
-            Valor Normal:{" "}
-            <span className="line-through">$45.000 ARS</span>
+            Precio Habitual:{" "}
+            <span className="line-through">74 USD</span>
           </div>
 
           <div className="inline-flex items-center gap-2 bg-[#E0932E] text-[#0E1E2E] font-bold px-5 py-2.5 rounded-full text-sm mb-5">
@@ -63,11 +61,14 @@ export function PricingSection() {
           </div>
 
           <p className="text-[#93A7B8] text-base mb-1">
-            51% OFF — Precio especial de lanzamiento:
+            Precio de lanzamiento:
           </p>
-          <div className="font-heading text-5xl md:text-7xl font-bold text-[#E0932E] leading-none mb-6 whitespace-nowrap">
-            $21.990 <span className="text-xl md:text-4xl">ARS</span>
+          <div className="font-heading text-5xl md:text-7xl font-bold text-[#E0932E] leading-none mb-2 whitespace-nowrap">
+            17 <span className="text-xl md:text-4xl">USD</span>
           </div>
+          <p className="text-[#93A7B8] text-sm mb-6">
+            👁️ 14 personas viendo esto ahora
+          </p>
 
           <motion.a
             id="pricing-cta-button"
@@ -82,17 +83,14 @@ export function PricingSection() {
             className="flex items-center justify-center gap-2 sm:gap-3 w-full bg-[#E0932E] hover:bg-[#C97D22] text-[#0E1E2E] font-bold text-[11.5px] sm:text-base md:text-lg px-5 py-4 sm:px-6 md:py-5 rounded-full shadow-lg shadow-[#E0932E]/30 transition-colors mb-6 whitespace-nowrap md:whitespace-normal"
           >
             <span className="flex items-center gap-2 text-center">
-              ⚖️ Sí, Quiero Acceder Ahora
+              👉 Quiero Acceder a Kit Mente Activa
             </span>
             <ArrowRight className="w-4 h-4 sm:w-5 sm:h-5 md:w-6 md:h-6 flex-shrink-0" />
           </motion.a>
 
           <div className="flex flex-wrap justify-center gap-x-3 gap-y-1.5 text-sm text-[#93A7B8] font-medium">
             <span>
-              <span aria-hidden="true">⚡</span> Acceso Inmediato
-            </span>
-            <span>
-              <span aria-hidden="true">💳</span> Pago Único
+              <span aria-hidden="true">💳</span> Pagás en tu Moneda Local
             </span>
             <span>
               <span aria-hidden="true">🛡️</span> Garantía 7 Días
@@ -101,17 +99,17 @@ export function PricingSection() {
               <span aria-hidden="true">🔒</span> Pago Seguro
             </span>
             <span>
-              <span aria-hidden="true">♾️</span> Acceso Permanente
+              <span aria-hidden="true">♾️</span> Acceso de por Vida
             </span>
           </div>
 
           <ul className="mt-6 pt-6 border-t border-white/10 text-left space-y-2 text-sm text-[#93A7B8]">
-            <li>✓ Kit Operativo de Práctica Jurídica (+300 Modelos)</li>
-            <li>✓ Bono 1: Guía de Cuota Alimentaria + Planilla</li>
-            <li>✓ Bono 2: Gestión Operativa de Accidentes de Tránsito</li>
-            <li>✓ Bono 3: Contratos de Locación — Nuevo Régimen</li>
-            <li>✓ Bono 4: Estrategias ante Falsas Denuncias</li>
-            <li>✓ Bono 5: Kit de Gestión y Honorarios Profesionales</li>
+            <li>✓ Los 6 Volúmenes (Inicial, Intermedio y Avanzado)</li>
+            <li>✓ +480 páginas de ejercicios listas para imprimir</li>
+            <li>✓ Los 6 Bonos de Regalo Exclusivos incluidos</li>
+            <li>✓ Bono 1: Guía de Uso Rápido</li>
+            <li>✓ Bono 3: Manual del Acompañante</li>
+            <li>✓ Acceso ilimitado y de por vida</li>
           </ul>
         </div>
       </div>

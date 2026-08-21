@@ -3,28 +3,28 @@ import { motion } from "framer-motion";
 import { CheckCircle2 } from "lucide-react";
 const features = [
   {
-    lead: "Reducir el tiempo de redacción",
-    desc: "Adaptá modelos ya armados al expediente en minutos.",
+    lead: "Estimular su mente sin que se sienta un niño",
+    desc: "Diseño premium y adulto, pensado para respetar su dignidad.",
   },
   {
-    lead: "Trabajar con más orden procesal",
-    desc: "Doctrina y jurisprudencia integradas en cada pieza.",
+    lead: "Ganar tiempo de calidad juntos",
+    desc: "El Volumen 6 está pensado para compartir en familia.",
   },
   {
-    lead: "Fundamentar con precisión",
-    desc: "Autores y precedentes que dan solidez a tu planteo.",
+    lead: "Empezar sin dudas ni presión",
+    desc: "Guía de acompañamiento para la primera sesión, sin frustración.",
   },
   {
-    lead: "Elevar tu imagen profesional",
-    desc: "Presentaciones prolijas que generan confianza y fidelización.",
+    lead: "Cubrir las 6 funciones cognitivas clave",
+    desc: "Memoria, atención, lenguaje, lógica, cálculo y conexión social.",
   },
   {
-    lead: "Cubrir varios fueros",
-    desc: "Familia, Civil, Laboral y Comercial en un solo recurso.",
+    lead: "Ver sus avances con claridad",
+    desc: "Registro de progreso incluido, para notar cada pequeño logro.",
   },
   {
-    lead: "Asegurar tus honorarios",
-    desc: "Convenios de cuota litis y pactos blindados desde el inicio.",
+    lead: "Usarlo hoy mismo, sin esperar",
+    desc: "Acceso inmediato por PDF, listo para imprimir a tu ritmo.",
   },
 ];
 
@@ -34,7 +34,7 @@ export function FeaturesSection() {
       <div className="container mx-auto px-2 sm:px-4 max-w-3xl">
         <div className="text-center mb-8">
           <h2 className="font-heading text-2xl md:text-4xl font-bold text-[#EDF2F6] max-w-3xl mx-auto leading-snug">
-            Lo que vas a lograr con este Kit Operativo
+            Lo que vas a lograr con Kit Mente Activa
           </h2>
         </div>
 
