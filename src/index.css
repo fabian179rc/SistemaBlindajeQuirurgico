@@ -8,9 +8,28 @@
 
 /* END TAILWIND IMPORTS — ALL OTHER CSS MUST GO BELOW THIS LINE */
 
+/* Size-matched fallback faces so the swap from system font -> web font
+   (now that the font stylesheet loads asynchronously, see index.html)
+   doesn't reflow the layout and trigger CLS. */
+@font-face {
+  font-family: 'Inter Fallback';
+  src: local('Arial');
+  ascent-override: 90.2%;
+  descent-override: 22.48%;
+  line-gap-override: 0%;
+  size-adjust: 107.12%;
+}
+@font-face {
+  font-family: 'Playfair Display Fallback';
+  src: local('Georgia'), local('Times New Roman');
+  ascent-override: 94%;
+  descent-override: 24%;
+  line-gap-override: 0%;
+  size-adjust: 104%;
+}
 :root {
-  --font-sans: 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
-  --font-heading: 'Playfair Display', Georgia, 'Times New Roman', serif;
+  --font-sans: 'Inter', 'Inter Fallback', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+  --font-heading: 'Playfair Display', 'Playfair Display Fallback', Georgia, 'Times New Roman', serif;
 }
 html {
   scroll-behavior: smooth;
@@ -38,6 +57,35 @@ button:focus-visible {
   outline: 3px solid #E0932E;
   outline-offset: 2px;
   border-radius: 9999px;
+}
+/* Lightweight entrance animations for the floating CTA and the social-proof
+   toast, used instead of framer-motion so those always-mounted components
+   don't pull the animation library into the critical bundle. */
+@keyframes float-cta-in {
+  from {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.animate-float-cta-in {
+  animation: float-cta-in 0.3s ease-out;
+}
+@keyframes toast-in {
+  from {
+    opacity: 0;
+    transform: translate(-24px, 8px);
+  }
+  to {
+    opacity: 1;
+    transform: translate(0, 0);
+  }
+}
+.animate-toast-in {
+  animation: toast-in 0.35s ease-out;
 }
 /* Respect users who prefer reduced motion */
 @media (prefers-reduced-motion: reduce) {

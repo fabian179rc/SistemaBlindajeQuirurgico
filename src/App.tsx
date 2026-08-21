@@ -1,5 +1,4 @@
 import React, { useEffect, createElement } from "react";
-import { MotionConfig } from "framer-motion";
 import { Landing } from "./pages/Landing";
 import { useScreenInit } from "./useScreenInit";
 const META_PIXEL_ID = "1520308000113704";
@@ -177,9 +176,5 @@ export function App() {
     const id = schedule(loadPixel);
     return () => cancel(id);
   }, []);
-  return (
-    <MotionConfig reducedMotion="user">
-      <Landing />
-    </MotionConfig>
-  );
+  return <Landing />;
 }

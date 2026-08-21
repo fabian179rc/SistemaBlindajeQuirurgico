@@ -1,5 +1,4 @@
 import React from "react";
-import { motion } from "framer-motion";
 import { Flame, ArrowRight } from "lucide-react";
 import { getCheckoutUrl, trackInitiateCheckout } from "../utils/checkoutUrl";
 export function PricingSection() {
@@ -70,23 +69,17 @@ export function PricingSection() {
             👁️ 14 personas viendo esto ahora
           </p>
 
-          <motion.a
+          <a
             id="pricing-cta-button"
             href={getCheckoutUrl()}
             onClick={trackInitiateCheckout}
-            whileHover={{
-              scale: 1.02,
-            }}
-            whileTap={{
-              scale: 0.98,
-            }}
-            className="flex items-center justify-center gap-2 sm:gap-3 w-full bg-[#E0932E] hover:bg-[#C97D22] text-[#0E1E2E] font-bold text-[11.5px] sm:text-base md:text-lg px-5 py-4 sm:px-6 md:py-5 rounded-full shadow-lg shadow-[#E0932E]/30 transition-colors mb-6 whitespace-nowrap md:whitespace-normal"
+            className="flex items-center justify-center gap-2 sm:gap-3 w-full bg-[#E0932E] hover:bg-[#C97D22] text-[#0E1E2E] font-bold text-[11.5px] sm:text-base md:text-lg px-5 py-4 sm:px-6 md:py-5 rounded-full shadow-lg shadow-[#E0932E]/30 transition-all duration-150 hover:scale-[1.02] active:scale-[0.98] mb-6 whitespace-nowrap md:whitespace-normal"
           >
             <span className="flex items-center gap-2 text-center">
               👉 Quiero Acceder a mi Kit Mente Activa
             </span>
             <ArrowRight className="w-4 h-4 sm:w-5 sm:h-5 md:w-6 md:h-6 flex-shrink-0" />
-          </motion.a>
+          </a>
 
           <div className="flex flex-wrap justify-center gap-x-3 gap-y-1.5 text-sm text-[#93A7B8] font-medium">
             <span>

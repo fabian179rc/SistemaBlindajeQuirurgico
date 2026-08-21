@@ -78,8 +78,8 @@ export function BonusesSection() {
                 <img
                   src={`${import.meta.env.BASE_URL}${b.image}`}
                   alt={`Bono ${b.num}: ${b.title}`}
-                  width={1264}
-                  height={848}
+                  width={900}
+                  height={604}
                   loading="lazy"
                   decoding="async"
                   className="w-full h-full object-cover"

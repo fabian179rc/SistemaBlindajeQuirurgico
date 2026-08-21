@@ -1,5 +1,4 @@
 import React from "react";
-import { motion } from "framer-motion";
 import { scrollToOffer } from "../utils/scrollToOffer";
 export function HeroSection() {
   return (
@@ -51,19 +50,13 @@ export function HeroSection() {
         </ul>
 
         <div className="flex flex-col items-center mt-0 md:mt-2">
-          <motion.a
+          <a
             href="#comprar"
             onClick={scrollToOffer}
-            whileHover={{
-              scale: 1.02,
-            }}
-            whileTap={{
-              scale: 0.98,
-            }}
-            className="flex items-center justify-center gap-2 sm:gap-3 w-full sm:w-auto bg-[#E0932E] hover:bg-[#C97D22] text-[#0E1E2E] font-bold px-5 py-3 sm:px-6 sm:py-3.5 md:px-8 md:py-3 rounded-full shadow-lg shadow-[#E0932E]/30 transition-colors mb-4 md:mb-3 text-[11.5px] sm:text-base md:text-lg whitespace-nowrap md:whitespace-normal"
+            className="flex items-center justify-center gap-2 sm:gap-3 w-full sm:w-auto bg-[#E0932E] hover:bg-[#C97D22] text-[#0E1E2E] font-bold px-5 py-3 sm:px-6 sm:py-3.5 md:px-8 md:py-3 rounded-full shadow-lg shadow-[#E0932E]/30 transition-all duration-150 hover:scale-[1.02] active:scale-[0.98] mb-4 md:mb-3 text-[11.5px] sm:text-base md:text-lg whitespace-nowrap md:whitespace-normal"
           >
             👉 ¡Sí, Quiero el Kit Completo Hoy!
-          </motion.a>
+          </a>
 
           <div className="flex flex-col items-center gap-1 sm:flex-row sm:flex-wrap sm:justify-center sm:gap-4 text-xs sm:text-sm leading-tight font-medium text-[#93A7B8]">
             <span className="whitespace-nowrap">

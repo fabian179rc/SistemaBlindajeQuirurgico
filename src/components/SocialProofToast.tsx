@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from "react";
-import { AnimatePresence, motion } from "framer-motion";
 import { X } from "lucide-react";
 
 const PRODUCT_NAME = "Kit Mente Activa";
@@ -49,17 +48,14 @@ export function SocialProofToast() {
     };
   }, []);
 
+  if (!current) return null;
+
   return (
-    <AnimatePresence>
-      {current && (
-        <motion.div
-          initial={{ opacity: 0, x: -24, y: 8 }}
-          animate={{ opacity: 1, x: 0, y: 0 }}
-          exit={{ opacity: 0, x: -24 }}
-          transition={{ duration: 0.35 }}
-          className="fixed bottom-6 left-4 sm:left-6 z-40 w-[200px] sm:w-[290px]"
-        >
-          <div className="relative bg-[#142635] border border-white/10 rounded-xl sm:rounded-2xl shadow-2xl shadow-black/40 px-2.5 py-2 sm:px-4 sm:py-3.5">
+    <div
+      key={current.name + current.time}
+      className="animate-toast-in fixed bottom-6 left-4 sm:left-6 z-40 w-[200px] sm:w-[290px]"
+    >
+      <div className="relative bg-[#142635] border border-white/10 rounded-xl sm:rounded-2xl shadow-2xl shadow-black/40 px-2.5 py-2 sm:px-4 sm:py-3.5">
             <button
               onClick={() => setCurrent(null)}
               aria-label="Cerrar"
@@ -96,8 +92,6 @@ export function SocialProofToast() {
 
             <p className="text-white/40 text-[9px] sm:text-[11px]">{current.time}</p>
           </div>
-        </motion.div>
-      )}
-    </AnimatePresence>
+        </div>
   );
 }
