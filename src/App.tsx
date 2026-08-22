@@ -1,7 +1,6 @@
 import React, { useEffect, createElement } from "react";
 import { Landing } from "./pages/Landing";
 import { useScreenInit } from "./useScreenInit";
-const META_PIXEL_ID = "1520308000113704";
 const PAGE_TITLE =
   "Kit Geología PRO 2026 — Sistema Integral de Recursos Educativos para Docentes de Ciencias de la Tierra";
 const PAGE_DESC =
@@ -131,50 +130,6 @@ export function App() {
       });
       document.head.appendChild(faq);
     }
-  }, []);
-  useEffect(() => {
-    if (typeof window === "undefined" || typeof document === "undefined")
-      return;
-    if (!META_PIXEL_ID) return;
-    const loadPixel = () => {
-      const w = window as any;
-      if (w.fbq) {
-        w.fbq("track", "PageView");
-        return;
-      }
-      const n: any = function () {
-        n.callMethod
-          ? n.callMethod.apply(n, arguments)
-          : n.queue.push(arguments);
-      };
-      n.push = n;
-      n.loaded = true;
-      n.version = "2.0";
-      n.queue = [];
-      w.fbq = n;
-      if (!w._fbq) w._fbq = n;
-      const script = document.createElement("script");
-      script.async = true;
-      script.src = "https://connect.facebook.net/en_US/fbevents.js";
-      const target = document.head || document.body || document.documentElement;
-      target.appendChild(script);
-      w.fbq("init", META_PIXEL_ID);
-      w.fbq("track", "PageView");
-      const noscript = document.createElement("noscript");
-      const img = document.createElement("img");
-      img.height = 1;
-      img.width = 1;
-      img.style.display = "none";
-      img.alt = "";
-      img.src = `https://www.facebook.com/tr?id=${META_PIXEL_ID}&ev=PageView&noscript=1`;
-      noscript.appendChild(img);
-      target.appendChild(noscript);
-    };
-    const w = window as any;
-    const schedule = w.requestIdleCallback || ((cb: () => void) => window.setTimeout(cb, 1));
-    const cancel = w.cancelIdleCallback || window.clearTimeout;
-    const id = schedule(loadPixel);
-    return () => cancel(id);
   }, []);
   return <Landing />;
 }
