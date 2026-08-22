@@ -52,7 +52,7 @@ export function PricingSection() {
         <div className="bg-[#16293B] rounded-3xl shadow-2xl shadow-black/30 p-7 md:p-8 text-center">
           <div className="text-[#93A7B8] text-base md:text-lg mb-3">
             Precio Habitual:{" "}
-            <span className="line-through">$87.990</span>
+            <span className="line-through">$68 USD</span>
           </div>
 
           <div className="inline-flex items-center gap-2 bg-[#E0932E] text-[#0E1E2E] font-bold px-5 py-2.5 rounded-full text-sm mb-5">
@@ -63,7 +63,7 @@ export function PricingSection() {
             Precio de lanzamiento:
           </p>
           <div className="font-heading text-5xl md:text-7xl font-bold text-[#E0932E] leading-none mb-2 whitespace-nowrap">
-            $21.990
+            $17 USD
           </div>
           <p className="text-[#93A7B8] text-sm mb-6">
             👁️ 14 personas viendo esto ahora

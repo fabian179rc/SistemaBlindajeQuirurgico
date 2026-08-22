@@ -25,9 +25,9 @@ export function FinalPricingCTA() {
           <h3 className="font-bold text-[#6FA8C9] mb-2 text-sm md:text-base max-w-xs sm:max-w-none mx-auto">
             🎁 Kit Mente Activa — 6 Volúmenes + 6 Bonos
           </h3>
-          <div className="text-[#93A7B8] line-through mb-2">$87.990</div>
+          <div className="text-[#93A7B8] line-through mb-2">$68 USD</div>
           <div className="text-4xl font-bold text-[#E0932E] mb-2">
-            $21.990
+            $17 USD
           </div>
           <p className="text-[#93A7B8] text-sm mb-6">
             Pago único. Acceso inmediato y de por vida. Incluye los 6
