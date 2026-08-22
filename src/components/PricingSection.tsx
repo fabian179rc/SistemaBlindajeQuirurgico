@@ -12,14 +12,14 @@ export function PricingSection() {
           Precio de Lanzamiento
         </span>
         <h2 className="font-heading text-3xl md:text-5xl font-bold text-white leading-tight mb-6">
-          KIT Geología Listo{" "}
+          Kit Geología PRO 2026{" "}
           <em className="italic font-bold text-[#CFE0EC]">Completo</em>
         </h2>
 
         <div className="relative inline-block mb-2 w-full max-w-md mx-auto">
           <img
             src={`${import.meta.env.BASE_URL}mockup9.webp`}
-            alt="KIT Geología Listo — Sistema Integral de Recursos Educativos para Docentes de Ciencias de la Tierra"
+            alt="Kit Geología PRO 2026 — Sistema Integral de Recursos Educativos para Docentes de Ciencias de la Tierra"
             width={900}
             height={900}
             loading="lazy"
@@ -63,7 +63,7 @@ export function PricingSection() {
             Precio de lanzamiento:
           </p>
           <div className="font-heading text-5xl md:text-7xl font-bold text-[#E0932E] leading-none mb-2 whitespace-nowrap">
-            $17 USD
+            $19 USD
           </div>
           <p className="text-[#93A7B8] text-sm mb-6">
             👁️ 14 docentes viendo esto ahora

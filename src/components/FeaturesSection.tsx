@@ -34,7 +34,7 @@ export function FeaturesSection() {
       <div className="container mx-auto px-2 sm:px-4 max-w-3xl">
         <div className="text-center mb-8">
           <h2 className="font-heading text-2xl md:text-4xl font-bold text-[#EDF2F6] max-w-3xl mx-auto leading-snug">
-            Lo que vas a lograr con KIT Geología Listo
+            Lo que vas a lograr con Kit Geología PRO 2026
           </h2>
         </div>
 

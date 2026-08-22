@@ -26,7 +26,7 @@ export function HeroSection() {
             loading="eager"
             fetchPriority="high"
             decoding="async"
-            alt="KIT Geología Listo — Sistema Integral de Recursos Educativos para Docentes de Ciencias de la Tierra"
+            alt="Kit Geología PRO 2026 — Sistema Integral de Recursos Educativos para Docentes de Ciencias de la Tierra"
             className="w-full h-auto aspect-square object-contain rounded-2xl"
           />
         </div>
@@ -55,7 +55,7 @@ export function HeroSection() {
             onClick={scrollToOffer}
             className="flex items-center justify-center gap-2 sm:gap-3 w-full sm:w-auto bg-[#E0932E] hover:bg-[#C97D22] text-[#0E1E2E] font-bold px-5 py-3 sm:px-6 sm:py-3.5 md:px-8 md:py-3 rounded-full shadow-lg shadow-[#E0932E]/30 transition-all duration-150 hover:scale-[1.02] active:scale-[0.98] mb-4 md:mb-3 text-[11.5px] sm:text-base md:text-lg whitespace-nowrap md:whitespace-normal"
           >
-            🌍 Quiero Mi KIT Geología Listo
+            🌍 Quiero Mi Kit Geología PRO 2026
           </a>
 
           <div className="flex flex-col items-center gap-1 sm:flex-row sm:flex-wrap sm:justify-center sm:gap-4 text-xs sm:text-sm leading-tight font-medium text-[#93A7B8]">

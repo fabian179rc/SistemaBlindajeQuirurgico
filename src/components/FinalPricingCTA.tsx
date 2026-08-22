@@ -23,11 +23,11 @@ export function FinalPricingCTA() {
 
         <div className="bg-[#16293B] border border-[#E0932E]/20 rounded-3xl p-6 md:p-7 shadow-lg shadow-black/20 max-w-xl mx-auto mb-6">
           <h3 className="font-bold text-[#6FA8C9] mb-2 text-sm md:text-base max-w-xs sm:max-w-none mx-auto">
-            🎁 KIT Geología Listo — 6 Tomos + 5 Bonos
+            🎁 Kit Geología PRO 2026 — 6 Tomos + 5 Bonos
           </h3>
           <div className="text-[#93A7B8] line-through mb-2">$68 USD</div>
           <div className="text-4xl font-bold text-[#E0932E] mb-2">
-            $17 USD
+            $19 USD
           </div>
           <p className="text-[#93A7B8] text-sm mb-6">
             Pago único. Acceso inmediato y permanente. Incluye los 6

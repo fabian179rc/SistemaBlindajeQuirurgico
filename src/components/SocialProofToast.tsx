@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { X } from "lucide-react";
 
-const PRODUCT_NAME = "KIT Geología Listo";
+const PRODUCT_NAME = "Kit Geología PRO 2026";
 
 const proofs = [
   { name: "Mariana R.", location: "Rosario", time: "hace 15 minutos" },
@@ -84,7 +84,7 @@ export function SocialProofToast() {
             <p className="text-white/80 text-[10px] sm:text-[13px] leading-snug mb-1 sm:mb-1.5">
               compró{" "}
               <span className="font-semibold text-emerald-400">
-                <span className="sm:hidden">KIT Geología Listo</span>
+                <span className="sm:hidden">Kit Geología PRO 2026</span>
                 <span className="hidden sm:inline">{PRODUCT_NAME}</span>
               </span>{" "}
               🌎
