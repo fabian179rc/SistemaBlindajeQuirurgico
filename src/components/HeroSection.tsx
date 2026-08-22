@@ -11,10 +11,11 @@ export function HeroSection() {
       </div>
 
       <div className="container mx-auto px-4 relative z-10 max-w-3xl md:max-w-6xl lg:max-w-7xl text-center">
-        <h1 className="font-heading font-extrabold text-[#EDF2F6] mb-2 md:mb-3 text-[26px] leading-snug sm:text-3xl md:text-5xl md:leading-tight lg:text-6xl">
-          Dejá de Improvisar Cada Clase.{" "}
+        <h1 className="font-heading font-extrabold text-[#EDF2F6] mb-2 md:mb-3 text-[32px] leading-snug sm:text-5xl md:text-7xl md:leading-tight lg:text-8xl">
+          Todo Tu Año de Geología
+          <br />
           <span className="text-[#E0932E]">
-            Geología Lista, Clase por Clase.
+            YA Listo para Mañana.
           </span>
         </h1>
 
