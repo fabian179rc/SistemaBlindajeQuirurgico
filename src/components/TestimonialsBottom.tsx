@@ -38,7 +38,7 @@ export function TestimonialsBottom() {
         <div className="text-center mb-8 flex flex-col items-center">
           <MessageCircle className="w-10 h-10 text-[#E0932E] mb-3" />
           <h2 className="font-heading text-3xl md:text-5xl font-bold text-[#EDF2F6]">
-            Lo Que Dicen Docentes que Usan GEOLOGÍA PRO
+            Lo Que Dicen Docentes que Usan KIT Geología Listo
           </h2>
         </div>
 

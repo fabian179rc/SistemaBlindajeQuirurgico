@@ -16,8 +16,8 @@ export function GuaranteeSection() {
 
         <div className="bg-[#16293B] border border-[#E0932E]/20 rounded-3xl p-4 md:p-8 shadow-sm">
           <p className="text-sm md:text-base text-[#93A7B8] leading-relaxed mb-4 md:mb-6">
-            Tenés 7 días corridos para revisar el material. Si GEOLOGÍA
-            PRO no coincide con lo descripto en esta página, podés
+            Tenés 7 días corridos para revisar el material. Si KIT
+            Geología Listo no coincide con lo descripto en esta página, podés
             solicitar la devolución de tu dinero. Sin trámites
             complicados.
           </p>

@@ -36,7 +36,7 @@ const faqs = [
 },
 {
   q: '¿El material reemplaza la planificación docente?',
-  a: 'No. GEOLOGÍA PRO no reemplaza tu criterio profesional ni la planificación institucional. Es una herramienta para facilitar, ordenar y enriquecer tu trabajo docente. Podés adaptarlo según tu país, nivel educativo, programa oficial y características del grupo.'
+  a: 'No. KIT Geología Listo no reemplaza tu criterio profesional ni la planificación institucional. Es una herramienta para facilitar, ordenar y enriquecer tu trabajo docente. Podés adaptarlo según tu país, nivel educativo, programa oficial y características del grupo.'
 }];
 
 export function FaqSection() {

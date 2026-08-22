@@ -34,7 +34,7 @@ export function FeaturesSection() {
       <div className="container mx-auto px-2 sm:px-4 max-w-3xl">
         <div className="text-center mb-8">
           <h2 className="font-heading text-2xl md:text-4xl font-bold text-[#EDF2F6] max-w-3xl mx-auto leading-snug">
-            Lo que vas a lograr con GEOLOGÍA PRO
+            Lo que vas a lograr con KIT Geología Listo
           </h2>
         </div>
 
@@ -56,7 +56,7 @@ export function FeaturesSection() {
               transition={{
                 delay: i * 0.08,
               }}
-              className="flex items-start gap-1.5 md:gap-2"
+              className="flex items-start gap-1.5 md:gap-2 bg-[#16293B] border border-white/10 rounded-lg px-2.5 py-2 md:px-3 md:py-2.5 shadow-sm"
             >
               <CheckCircle2 className="w-3.5 h-3.5 md:w-4 md:h-4 flex-shrink-0 mt-0.5 text-[#E0932E]" />
               <p className="text-xs md:text-sm text-[#93A7B8] leading-snug">

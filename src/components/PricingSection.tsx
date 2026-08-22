@@ -12,14 +12,14 @@ export function PricingSection() {
           Precio de Lanzamiento
         </span>
         <h2 className="font-heading text-3xl md:text-5xl font-bold text-white leading-tight mb-6">
-          GEOLOGÍA PRO{" "}
+          KIT Geología Listo{" "}
           <em className="italic font-bold text-[#CFE0EC]">Completo</em>
         </h2>
 
         <div className="relative inline-block mb-2 w-full max-w-md mx-auto">
           <img
             src={`${import.meta.env.BASE_URL}mockup9.webp`}
-            alt="GEOLOGÍA PRO — Sistema Integral de Recursos Educativos para Docentes de Ciencias de la Tierra"
+            alt="KIT Geología Listo — Sistema Integral de Recursos Educativos para Docentes de Ciencias de la Tierra"
             width={900}
             height={900}
             loading="lazy"
@@ -104,7 +104,7 @@ export function PricingSection() {
             <li>✓ Tomo 5: Geología en Acción</li>
             <li>✓ Tomo 6: Riqueza y Futuro</li>
             <li>✓ Los 5 Bonos Complementarios incluidos</li>
-            <li>✓ Acceso ilimitado y permanente</li>
+            <li>✓ Acceso de por vida</li>
           </ul>
         </div>
       </div>

@@ -3,7 +3,7 @@ import { Landing } from "./pages/Landing";
 import { useScreenInit } from "./useScreenInit";
 const META_PIXEL_ID = "1520308000113704";
 const PAGE_TITLE =
-  "GEOLOGÍA PRO — Sistema Integral de Recursos Educativos para Docentes de Ciencias de la Tierra";
+  "KIT Geología Listo — Sistema Integral de Recursos Educativos para Docentes de Ciencias de la Tierra";
 const PAGE_DESC =
   "6 tomos digitales + 5 bonos con clases visuales, actividades y evaluaciones listas para enseñar Geología con estructura y profundidad: desde el origen del planeta hasta minerales, tectónica, volcanes y recursos naturales.";
 const HERO_IMAGE = `${import.meta.env.BASE_URL}mockup9.webp`;
@@ -57,7 +57,7 @@ export function App() {
     setMeta("property", "og:locale", "es_LA");
     setMeta("property", "og:image", HERO_IMAGE);
     setMeta("property", "og:url", SITE_URL);
-    setMeta("property", "og:site_name", "GEOLOGÍA PRO");
+    setMeta("property", "og:site_name", "KIT Geología Listo");
     setMeta("name", "twitter:card", "summary_large_image");
     setMeta("name", "twitter:image", HERO_IMAGE);
     setMeta("name", "twitter:title", PAGE_TITLE);
@@ -70,12 +70,12 @@ export function App() {
       ld.textContent = JSON.stringify({
         "@context": "https://schema.org",
         "@type": "Product",
-        name: "GEOLOGÍA PRO — Sistema Integral de Recursos Educativos para Docentes de Ciencias de la Tierra",
+        name: "KIT Geología Listo — Sistema Integral de Recursos Educativos para Docentes de Ciencias de la Tierra",
         description: PAGE_DESC,
         image: HERO_IMAGE,
         brand: {
           "@type": "Brand",
-          name: "GEOLOGÍA PRO",
+          name: "KIT Geología Listo",
         },
         offers: {
           "@type": "Offer",
