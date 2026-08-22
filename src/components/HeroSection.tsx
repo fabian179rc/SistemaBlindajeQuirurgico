@@ -12,9 +12,9 @@ export function HeroSection() {
 
       <div className="container mx-auto px-4 relative z-10 max-w-3xl md:max-w-6xl lg:max-w-7xl text-center">
         <h1 className="font-heading font-extrabold text-[#EDF2F6] mb-2 md:mb-3 text-[26px] leading-snug sm:text-3xl md:text-5xl md:leading-tight lg:text-6xl">
-          ¿Notás que Ya No Es el Mismo de Antes?{" "}
+          6 Tomos. Cero Improvisación.{" "}
           <span className="text-[#E0932E]">
-            Ayudalo a Frenar el Deterioro Antes de que Avance
+            Clases Visuales, Actividades y Bonos Listos para Usar
           </span>
         </h1>
 
@@ -26,26 +26,27 @@ export function HeroSection() {
             loading="eager"
             fetchPriority="high"
             decoding="async"
-            alt="Kit Mente Activa — Estimulación Cognitiva para Adultos Mayores"
+            alt="GEOLOGÍA PRO — Sistema Integral de Recursos Educativos para Docentes de Ciencias de la Tierra"
             className="w-full h-auto aspect-square object-contain rounded-2xl"
           />
         </div>
 
         <p className="md:text-xl text-[#93A7B8] mb-3 max-w-2xl mx-auto text-[12px] leading-relaxed">
-          +480 ejercicios cognitivos imprimibles, diseñados por
-          especialistas y pensados con amor. Listos para imprimir y usar
-          al ritmo propio.
+          La colección completa para enseñar geología con claridad,
+          estructura y profundidad: desde el origen del planeta hasta
+          minerales, rocas, tectónica, volcanes, sismos, paisajes, agua,
+          suelos y recursos naturales.
         </p>
 
         <ul className="text-center mx-auto mb-3 max-w-md text-emerald-400 text-[12px] md:text-base space-y-1">
-          <li className="whitespace-nowrap">
-            ✓ Memoria, atención, lenguaje, lógica y cálculo en un kit.
+          <li>
+            ✓ 6 tomos digitales organizados paso a paso.
           </li>
-          <li className="whitespace-nowrap">
-            ✓ Diseño premium y adulto — nada infantil.
+          <li>
+            ✓ Explicaciones claras, visuales y listas para adaptar a clase.
           </li>
-          <li className="whitespace-nowrap">
-            ✓ Listo para imprimir y usar al ritmo propio.
+          <li>
+            ✓ Actividades, esquemas, evaluaciones y preguntas disparadoras incluidas.
           </li>
         </ul>
 
@@ -55,12 +56,12 @@ export function HeroSection() {
             onClick={scrollToOffer}
             className="flex items-center justify-center gap-2 sm:gap-3 w-full sm:w-auto bg-[#E0932E] hover:bg-[#C97D22] text-[#0E1E2E] font-bold px-5 py-3 sm:px-6 sm:py-3.5 md:px-8 md:py-3 rounded-full shadow-lg shadow-[#E0932E]/30 transition-all duration-150 hover:scale-[1.02] active:scale-[0.98] mb-4 md:mb-3 text-[11.5px] sm:text-base md:text-lg whitespace-nowrap md:whitespace-normal"
           >
-            👉 ¡Sí, Quiero el Kit Completo Hoy!
+            🌍 Quiero Mi GEOLOGÍA PRO
           </a>
 
           <div className="flex flex-col items-center gap-1 sm:flex-row sm:flex-wrap sm:justify-center sm:gap-4 text-xs sm:text-sm leading-tight font-medium text-[#93A7B8]">
             <span className="whitespace-nowrap">
-              <span aria-hidden="true">⭐</span> 4.9/5 — Calificación
+              <span aria-hidden="true">⭐</span> Material diseñado para docentes
             </span>
             <span
               aria-hidden="true"
@@ -69,8 +70,7 @@ export function HeroSection() {
               |
             </span>
             <span className="whitespace-nowrap text-[#6FA8C9]">
-              <span aria-hidden="true">🛡️</span> Garantía de 7 días — Sin
-              preguntas
+              <span aria-hidden="true">🛡️</span> Garantía de 7 días — Riesgo cero
             </span>
             <span
               aria-hidden="true"
@@ -79,7 +79,7 @@ export function HeroSection() {
               |
             </span>
             <span className="whitespace-nowrap text-[#6FA8C9]">
-              <span aria-hidden="true">🔒</span> Pago 100% seguro
+              <span aria-hidden="true">⚡</span> Acceso inmediato
             </span>
           </div>
         </div>

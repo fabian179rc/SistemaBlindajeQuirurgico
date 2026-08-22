@@ -2,24 +2,29 @@ import React from 'react';
 import { motion } from 'framer-motion';
 const pains = [
 {
-  emoji: '😟',
-  title: 'Olvidos que Preocupan',
-  desc: 'Lo ves cada vez más olvidadizo o desconectado, y no sabés cómo ayudarlo.'
+  emoji: '🗂️',
+  title: 'Recursos Dispersos',
+  desc: 'Tenés PDFs sueltos, videos aislados, imágenes de internet y apuntes viejos sin una secuencia clara.'
 },
 {
-  emoji: '🤷',
-  title: 'No Sabés por Dónde Empezar',
-  desc: 'Querés que se mantenga activo, pero no sabés con qué ni cómo.'
+  emoji: '⏱️',
+  title: 'Preparación que Consume Horas',
+  desc: 'Una clase sobre tectónica, minerales o volcanes puede llevarte horas de búsqueda y armado.'
 },
 {
-  emoji: '🎈',
-  title: 'Materiales que no Respetan',
-  desc: 'Todo lo que encontrás es infantil, aburrido o genérico.'
+  emoji: '📌',
+  title: 'Explicaciones Difíciles de Aterrizar',
+  desc: 'Escalas de millones de años y procesos invisibles se vuelven abstractos sin recursos visuales.'
 },
 {
-  emoji: '⏳',
-  title: 'Horas Buscando el Material Correcto',
-  desc: 'Sos familiar o profesional y no encontrás algo que inspire confianza.'
+  emoji: '🌋',
+  title: 'Alumnos que se Interesan… pero se Pierden',
+  desc: 'Los volcanes y terremotos despiertan curiosidad, pero se apaga rápido sin una estructura didáctica clara.'
+},
+{
+  emoji: '🎯',
+  title: 'Faltan Actividades Listas para Aplicar',
+  desc: 'Sabés explicar el tema, pero no siempre tenés a mano una actividad o evaluación lista para usar.'
 }];
 
 export function ProblemSection() {
@@ -28,24 +33,27 @@ export function ProblemSection() {
       <div className="container mx-auto px-4 max-w-4xl">
         <div className="text-center mb-6">
           <h2 className="font-heading text-3xl md:text-5xl font-bold mb-4 text-[#EDF2F6]">
-            ¿Tenés un adulto mayor que amás y querés ayudarlo?
+            ¿Te falta estructura para enseñar Geología sin perder horas preparando cada clase?
           </h2>
           <p className="text-sm md:text-base text-[#93A7B8] leading-relaxed max-w-2xl mx-auto">
-            ¿Y si pudieras ayudarlo a mantener su mente activa con un
-            material creado por especialistas y pensado con el respeto
-            que merece?
+            Sabés que la Tierra se mueve, que las rocas cuentan historias
+            y que los volcanes y terremotos no ocurren al azar. Pero
+            preparar la clase implica buscar información en varios
+            sitios, adaptar textos técnicos, armar actividades y lograr
+            que todo tenga sentido para tus estudiantes.
           </p>
         </div>
 
         <div className="bg-[#16293B] border border-[#E0932E]/20 text-[#EDF2F6] rounded-2xl p-3 md:p-4 shadow-sm text-center mb-5 max-w-2xl mx-auto">
           <p className="md:text-lg font-medium text-[#DCE6ED] text-[15px]">
-            ✨ Sin improvisar. Sin buscar más. Sin materiales que lo hagan
-            sentir un niño.
+            ⚡ Ese no es un problema de capacidad docente. Es un problema
+            de sistema.
           </p>
         </div>
 
         <p className="text-center text-sm md:text-base text-[#93A7B8] leading-relaxed max-w-2xl mx-auto mb-5">
-          Esto te va a sonar familiar:
+          Si enseñás Ciencias Naturales, Geografía, Biología o Ciencias de
+          la Tierra, probablemente ya viviste estas situaciones:
         </p>
 
         <div className="grid sm:grid-cols-2 gap-2">

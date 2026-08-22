@@ -1,17 +1,17 @@
 import React, { useEffect, useState } from "react";
 import { X } from "lucide-react";
 
-const PRODUCT_NAME = "Kit Mente Activa";
+const PRODUCT_NAME = "GEOLOGÍA PRO";
 
 const proofs = [
-  { name: "Marcela R.", location: "Rosario", time: "hace 15 minutos" },
-  { name: "Diego F.", location: "Mendoza", time: "hace 8 minutos" },
-  { name: "Patricia G.", location: "Santa Fe", time: "hace 22 minutos" },
-  { name: "Soledad M.", location: "Corrientes", time: "hace 34 minutos" },
-  { name: "Roberto C.", location: "Mar del Plata", time: "hace 5 minutos" },
-  { name: "Carla B.", location: "Neuquén", time: "hace 41 minutos" },
+  { name: "Mariana R.", location: "Rosario", time: "hace 15 minutos" },
+  { name: "Carlos M.", location: "Mendoza", time: "hace 8 minutos" },
+  { name: "Prof. Patricia G.", location: "Santa Fe", time: "hace 22 minutos" },
+  { name: "Lucía P.", location: "Corrientes", time: "hace 34 minutos" },
+  { name: "Andrés G.", location: "Mar del Plata", time: "hace 5 minutos" },
+  { name: "Prof. Carla B.", location: "Neuquén", time: "hace 41 minutos" },
   { name: "Lic. Andrea P.", location: "Córdoba", time: "hace 12 minutos" },
-  { name: "Lic. Vanesa T.", location: "Buenos Aires", time: "hace 27 minutos" },
+  { name: "Prof. Vanesa T.", location: "Buenos Aires", time: "hace 27 minutos" },
 ];
 
 const SHOW_DURATION = 7000;
@@ -84,10 +84,10 @@ export function SocialProofToast() {
             <p className="text-white/80 text-[10px] sm:text-[13px] leading-snug mb-1 sm:mb-1.5">
               compró{" "}
               <span className="font-semibold text-emerald-400">
-                <span className="sm:hidden">Kit Mente Activa</span>
+                <span className="sm:hidden">GEOLOGÍA PRO</span>
                 <span className="hidden sm:inline">{PRODUCT_NAME}</span>
               </span>{" "}
-              📗
+              🌎
             </p>
 
             <p className="text-white/40 text-[9px] sm:text-[11px]">{current.time}</p>

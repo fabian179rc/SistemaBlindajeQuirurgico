@@ -12,14 +12,14 @@ export function PricingSection() {
           Precio de Lanzamiento
         </span>
         <h2 className="font-heading text-3xl md:text-5xl font-bold text-white leading-tight mb-6">
-          Kit Mente Activa{" "}
+          GEOLOGÍA PRO{" "}
           <em className="italic font-bold text-[#CFE0EC]">Completo</em>
         </h2>
 
         <div className="relative inline-block mb-2 w-full max-w-md mx-auto">
           <img
             src={`${import.meta.env.BASE_URL}mockup9.webp`}
-            alt="Kit Mente Activa — Estimulación Cognitiva para Adultos Mayores"
+            alt="GEOLOGÍA PRO — Sistema Integral de Recursos Educativos para Docentes de Ciencias de la Tierra"
             width={900}
             height={900}
             loading="lazy"
@@ -36,7 +36,7 @@ export function PricingSection() {
               }}
             />
             <div className="relative text-center text-white leading-none rotate-12">
-              <div className="text-2xl md:text-3xl font-extrabold">77%</div>
+              <div className="text-2xl md:text-3xl font-extrabold">75%</div>
               <div className="text-[9px] md:text-[10px] font-bold tracking-wide mt-0.5">
                 OFF
               </div>
@@ -66,7 +66,7 @@ export function PricingSection() {
             $17 USD
           </div>
           <p className="text-[#93A7B8] text-sm mb-6">
-            👁️ 14 personas viendo esto ahora
+            👁️ 14 docentes viendo esto ahora
           </p>
 
           <a
@@ -76,14 +76,14 @@ export function PricingSection() {
             className="flex items-center justify-center gap-2 sm:gap-3 w-full bg-[#E0932E] hover:bg-[#C97D22] text-[#0E1E2E] font-bold text-[11.5px] sm:text-base md:text-lg px-5 py-4 sm:px-6 md:py-5 rounded-full shadow-lg shadow-[#E0932E]/30 transition-all duration-150 hover:scale-[1.02] active:scale-[0.98] mb-6 whitespace-nowrap md:whitespace-normal"
           >
             <span className="flex items-center gap-2 text-center">
-              👉 Quiero Acceder a mi Kit Mente Activa
+              🌍 Sí, Quiero Acceder Ahora
             </span>
             <ArrowRight className="w-4 h-4 sm:w-5 sm:h-5 md:w-6 md:h-6 flex-shrink-0" />
           </a>
 
           <div className="flex flex-wrap justify-center gap-x-3 gap-y-1.5 text-sm text-[#93A7B8] font-medium">
             <span>
-              <span aria-hidden="true">💳</span> Pagás en tu Moneda Local
+              <span aria-hidden="true">💳</span> Pago Único
             </span>
             <span>
               <span aria-hidden="true">🛡️</span> Garantía 7 Días
@@ -92,17 +92,19 @@ export function PricingSection() {
               <span aria-hidden="true">🔒</span> Pago Seguro
             </span>
             <span>
-              <span aria-hidden="true">♾️</span> Acceso de por Vida
+              <span aria-hidden="true">♾️</span> Acceso Permanente
             </span>
           </div>
 
           <ul className="mt-6 pt-6 border-t border-white/10 text-left space-y-2 text-sm text-emerald-400">
-            <li>✓ Los 6 Volúmenes (Inicial, Intermedio y Avanzado)</li>
-            <li>✓ +480 páginas de ejercicios listas para imprimir</li>
-            <li>✓ Los 6 Bonos de Regalo Exclusivos incluidos</li>
-            <li>✓ Bono 1: Guía de Uso Rápido</li>
-            <li>✓ Bono 3: Manual del Acompañante</li>
-            <li>✓ Acceso ilimitado y de por vida</li>
+            <li>✓ Tomo 1: El Planeta Dinámico</li>
+            <li>✓ Tomo 2: El Código de las Rocas</li>
+            <li>✓ Tomo 3: Arquitectura de la Tierra</li>
+            <li>✓ Tomo 4: Escultores del Paisaje</li>
+            <li>✓ Tomo 5: Geología en Acción</li>
+            <li>✓ Tomo 6: Riqueza y Futuro</li>
+            <li>✓ Los 5 Bonos Complementarios incluidos</li>
+            <li>✓ Acceso ilimitado y permanente</li>
           </ul>
         </div>
       </div>

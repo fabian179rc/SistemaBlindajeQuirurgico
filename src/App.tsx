@@ -3,12 +3,12 @@ import { Landing } from "./pages/Landing";
 import { useScreenInit } from "./useScreenInit";
 const META_PIXEL_ID = "1520308000113704";
 const PAGE_TITLE =
-  "Kit Mente Activa — Estimulación Cognitiva para Adultos Mayores";
+  "GEOLOGÍA PRO — Sistema Integral de Recursos Educativos para Docentes de Ciencias de la Tierra";
 const PAGE_DESC =
-  "+480 ejercicios cognitivos imprimibles en 6 volúmenes, diseñados por especialistas para estimular memoria, atención, lenguaje, lógica y cálculo. Material premium en PDF, listo para imprimir y usar en familia.";
+  "6 tomos digitales + 5 bonos con clases visuales, actividades y evaluaciones listas para enseñar Geología con estructura y profundidad: desde el origen del planeta hasta minerales, tectónica, volcanes y recursos naturales.";
 const HERO_IMAGE = `${import.meta.env.BASE_URL}mockup9.webp`;
 
-const SITE_URL = "https://kit-mente-activa.tupuntodigital.shop";
+const SITE_URL = "https://geologia-lista.tupuntodigital.shop";
 function setMeta(attr: "name" | "property", key: string, content: string) {
   let el = document.head.querySelector<HTMLMetaElement>(
     `meta[${attr}="${key}"]`,
@@ -57,7 +57,7 @@ export function App() {
     setMeta("property", "og:locale", "es_LA");
     setMeta("property", "og:image", HERO_IMAGE);
     setMeta("property", "og:url", SITE_URL);
-    setMeta("property", "og:site_name", "Kit Mente Activa");
+    setMeta("property", "og:site_name", "GEOLOGÍA PRO");
     setMeta("name", "twitter:card", "summary_large_image");
     setMeta("name", "twitter:image", HERO_IMAGE);
     setMeta("name", "twitter:title", PAGE_TITLE);
@@ -70,19 +70,19 @@ export function App() {
       ld.textContent = JSON.stringify({
         "@context": "https://schema.org",
         "@type": "Product",
-        name: "Kit Mente Activa — Estimulación Cognitiva para Adultos Mayores",
+        name: "GEOLOGÍA PRO — Sistema Integral de Recursos Educativos para Docentes de Ciencias de la Tierra",
         description: PAGE_DESC,
         image: HERO_IMAGE,
         brand: {
           "@type": "Brand",
-          name: "Kit Mente Activa",
+          name: "GEOLOGÍA PRO",
         },
         offers: {
           "@type": "Offer",
           price: "17",
           priceCurrency: "USD",
           availability: "https://schema.org/InStock",
-          url: "https://kit-mente-activa.impultienda.ar/checkout",
+          url: "https://kitgeologialista.impultienda.ar/checkout",
         },
       });
       document.head.appendChild(ld);
@@ -97,24 +97,24 @@ export function App() {
         "@type": "FAQPage",
         mainEntity: [
           {
-            q: "¿Esto tiene aval profesional o son ejercicios genéricos de internet?",
-            a: "Kit Mente Activa fue desarrollado con criterio clínico y pedagógico, aplicando principios de estimulación cognitiva validados para adultos mayores. Cada ejercicio respeta la dignidad del adulto mayor, se adapta a distintos niveles de capacidad y es útil tanto para un familiar como para un profesional.",
+            q: "¿Es un producto físico o digital?",
+            a: "Es un producto 100% digital. Recibís acceso al material en formato PDF de alta resolución para descargarlo y utilizarlo desde tu computadora, tablet o dispositivo móvil.",
           },
           {
-            q: "¿Qué pasa si lo compro y mi familiar no quiere usarlo o no le gusta?",
-            a: "Por eso incluimos el Bono 1 (Guía de Primera Sesión) y el Bono 3 (Manual del Acompañante): ambos te ayudan a introducir el material sin presión ni frustración. Además, si dentro de los primeros 7 días no estás satisfecho/a, te devolvemos el dinero sin preguntas.",
+            q: "¿Puedo imprimirlo?",
+            a: "Sí. Podés imprimir los tomos, las guías, los esquemas, las actividades y las evaluaciones para usarlas en clase.",
           },
           {
-            q: "No tengo impresora en casa. ¿Es difícil o costoso pasarlo a papel?",
-            a: "Para nada. Los archivos son PDFs estándar que podés llevar a cualquier copistería o librería cercana, a un costo mínimo. El Bono 5 incluye una guía completa de impresión con recomendaciones de papel y organización.",
+            q: "¿Sirve para secundaria?",
+            a: "Sí. Es especialmente útil para secundaria y bachillerato, aunque también puede adaptarse a formación docente, cursos introductorios, talleres ambientales y primeros años de nivel superior.",
           },
           {
-            q: "¿Me va a tocar estar al lado todo el tiempo explicando cómo se usa?",
-            a: "No. Cada ejercicio tiene instrucciones claras, en letra grande y con lenguaje simple. El kit está diseñado para que el adulto mayor pueda usarlo solo si quiere, o acompañado si lo prefiere.",
+            q: "¿Necesito ser especialista en geología?",
+            a: "No necesariamente. El material está pensado para docentes que necesitan explicar Ciencias de la Tierra con claridad, aunque no sean geólogos profesionales.",
           },
           {
-            q: 'Me da miedo que el diseño parezca "para nenes de jardín". ¿Cómo está armado?',
-            a: "Kit Mente Activa tiene una estética premium, elegante y completamente adulta: tipografía clara, colores sobrios, diseño editorial de alto nivel. Nada de dibujitos ni tonos infantilizantes.",
+            q: "¿Incluye actividades?",
+            a: "Sí. Además de las actividades integradas en los tomos, recibís bonos específicos con guías de trabajo, esquemas, evaluaciones, rúbricas y preguntas disparadoras.",
           },
           {
             q: "¿El pago es por única vez o me van a cobrar una suscripción?",

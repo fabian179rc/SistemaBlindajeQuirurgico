@@ -1,4 +1,4 @@
-const CHECKOUT_BASE_URL = 'https://kit-mente-activa.impultienda.ar/checkout';
+const CHECKOUT_BASE_URL = 'https://kitgeologialista.impultienda.ar/checkout';
 const META_TRACKING_PARAMS = new Set(['fbclid', 'fbc', 'fbp']);
 
 /**

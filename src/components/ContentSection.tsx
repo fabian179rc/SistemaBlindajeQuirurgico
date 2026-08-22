@@ -4,34 +4,34 @@ import { PackageOpen } from "lucide-react";
 
 const modulos = [
   {
-    emoji: "📘",
-    title: "Vol 1: Foco Total",
-    desc: "Atención y concentración: filtrar distracciones y procesar con claridad.",
+    emoji: "🌌",
+    title: "Tomo 1: El Planeta Dinámico",
+    desc: "Origen, historia y estructura interna de la Tierra a través del tiempo geológico.",
   },
   {
-    emoji: "📗",
-    title: "Vol 2: Caja de Recuerdos",
-    desc: "Memoria a corto y largo plazo, con juegos de asociación e historias.",
+    emoji: "🔬",
+    title: "Tomo 2: El Código de las Rocas",
+    desc: "Minerales, rocas ígneas, sedimentarias y metamórficas, y el ciclo de las rocas.",
   },
   {
-    emoji: "📙",
-    title: "Vol 3: Fluidez Vital",
-    desc: "Lenguaje y comunicación: vocabulario activo y conversación con seguridad.",
+    emoji: "🌍",
+    title: "Tomo 3: Arquitectura de la Tierra",
+    desc: "Tectónica de placas, volcanes, terremotos y movimiento continental.",
   },
   {
-    emoji: "📕",
-    title: "Vol 4: El Arquitecto",
-    desc: "Funciones ejecutivas y lógica: decisiones y autonomía en casa.",
+    emoji: "🏔️",
+    title: "Tomo 4: Escultores del Paisaje",
+    desc: "Meteorización, erosión, ríos, glaciares, costas y desiertos.",
   },
   {
-    emoji: "📓",
-    title: "Vol 5: Precisión Diaria",
-    desc: "Cálculo y razonamiento numérico, con propuestas de la vida real.",
+    emoji: "⚠️",
+    title: "Tomo 5: Geología en Acción",
+    desc: "Agua subterránea, suelos, riesgos naturales y geología aplicada.",
   },
   {
-    emoji: "📒",
-    title: "Vol 6: Nexo Social",
-    desc: "Cognición y conexión familiar: dinámicas de vínculo en grupo.",
+    emoji: "💎",
+    title: "Tomo 6: Riqueza y Futuro",
+    desc: "Recursos minerales, energía, minería y transición energética.",
   },
 ];
 
@@ -42,15 +42,15 @@ export function ContentSection() {
         <div className="text-center mb-8">
           <span className="inline-flex items-center gap-2 px-6 py-2.5 mb-5 rounded-full border border-white/15 bg-[#1D3550] text-[#EDF2F6] font-semibold tracking-[0.18em] uppercase text-xs">
             <PackageOpen className="w-4 h-4 text-[#E0932E]" />
-            Los 6 Volúmenes del Kit
+            Los 6 Tomos de la Colección
           </span>
           <h2 className="font-heading font-bold text-[#EDF2F6] text-3xl md:text-5xl leading-tight mb-4">
-            📚 Todas las Funciones Cognitivas en{" "}
-            <span className="italic text-[#6FA8C9]">un Solo Kit</span>
+            🌎 Toda la Geología en{" "}
+            <span className="italic text-[#6FA8C9]">un Solo Sistema</span>
           </h2>
           <p className="text-sm md:text-base text-[#93A7B8] leading-relaxed max-w-2xl mx-auto">
-            6 volúmenes con diseño premium y más de 480 ejercicios listos
-            para imprimir y aplicar en casa o en sesiones.
+            6 tomos digitales con teoría clara, esquemas y contexto
+            hispanoamericano, listos para adaptar a tu clase.
           </p>
         </div>
 

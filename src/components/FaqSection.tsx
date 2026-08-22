@@ -3,28 +3,40 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { Plus, Minus } from 'lucide-react';
 const faqs = [
 {
-  q: '¿Esto tiene aval profesional o son ejercicios genéricos de internet?',
-  a: 'Kit Mente Activa fue desarrollado con criterio clínico y pedagógico, aplicando principios de estimulación cognitiva validados para adultos mayores. Cada ejercicio respeta la dignidad del adulto mayor, se adapta a distintos niveles de capacidad y es útil tanto para un familiar como para un profesional. No es un compilado de ejercicios sueltos: es un sistema completo y organizado.'
+  q: '¿Es un producto físico o digital?',
+  a: 'Es un producto 100% digital. Recibís acceso al material en formato PDF de alta resolución para descargarlo y utilizarlo desde tu computadora, tablet o dispositivo móvil.'
 },
 {
-  q: '¿Qué pasa si lo compro y mi familiar no quiere usarlo o no le gusta?',
-  a: 'Por eso incluimos el Bono 1 (Guía de Primera Sesión) y el Bono 3 (Manual del Acompañante): ambos te ayudan a introducir el material sin presión ni frustración. Además, si dentro de los primeros 7 días no estás satisfecho/a, te devolvemos el dinero sin preguntas.'
+  q: '¿Puedo imprimirlo?',
+  a: 'Sí. Podés imprimir los tomos, las guías, los esquemas, las actividades y las evaluaciones para usarlas en clase.'
 },
 {
-  q: 'No tengo impresora en casa. ¿Es difícil o costoso pasarlo a papel?',
-  a: 'Para nada. Los archivos son PDFs estándar que podés llevar a cualquier copistería o librería cercana, a un costo mínimo. El Bono 5 incluye una guía completa de impresión con recomendaciones de papel y organización.'
+  q: '¿Puedo proyectarlo en el aula?',
+  a: 'Sí. El material está diseñado para ser visual y claro, por lo que podés usarlo como apoyo en tus clases, proyectarlo o compartir fragmentos con tus estudiantes según el uso educativo permitido.'
 },
 {
-  q: '¿Me va a tocar estar al lado todo el tiempo explicando cómo se usa?',
-  a: 'No. Cada ejercicio tiene instrucciones claras, en letra grande y con lenguaje simple. El kit está diseñado para que el adulto mayor pueda usarlo solo si quiere, o acompañado si lo prefiere. La autonomía es uno de los valores centrales del diseño.'
+  q: '¿Sirve para secundaria?',
+  a: 'Sí. Es especialmente útil para secundaria y bachillerato, aunque también puede adaptarse a formación docente, cursos introductorios, talleres ambientales y primeros años de nivel superior.'
 },
 {
-  q: 'Me da miedo que el diseño parezca "para nenes de jardín". ¿Cómo está armado?',
-  a: 'Esta fue una de nuestras prioridades absolutas. Kit Mente Activa tiene una estética premium, elegante y completamente adulta: tipografía clara, colores sobrios, diseño editorial de alto nivel. Nada de dibujitos ni tonos infantilizantes. Transmite respeto desde la primera página.'
+  q: '¿Necesito ser especialista en geología?',
+  a: 'No necesariamente. El material está pensado para docentes que necesitan explicar Ciencias de la Tierra con claridad, aunque no sean geólogos profesionales. Cada tema está desarrollado con lenguaje accesible y estructura didáctica.'
 },
 {
-  q: '¿El pago es por única vez o me van a cobrar una suscripción?',
-  a: 'Es un pago único, para siempre. Sin suscripciones, sin cargos adicionales, sin sorpresas. Pagás una sola vez y el material es tuyo de por vida, incluyendo las actualizaciones futuras.'
+  q: '¿Incluye actividades?',
+  a: 'Sí. Además de las actividades integradas en los tomos, recibís bonos específicos con guías de trabajo, esquemas, evaluaciones, rúbricas y preguntas disparadoras.'
+},
+{
+  q: '¿Los ejemplos son solo globales o incluyen Hispanoamérica?',
+  a: 'Incluyen contexto global y también ejemplos especialmente pensados para Hispanoamérica: volcanes, terremotos, cordilleras, recursos minerales, paisajes, agua y riesgos naturales de la región.'
+},
+{
+  q: '¿Cuándo recibo el acceso?',
+  a: 'Después de la compra, recibís el acceso al material digital para descargarlo y comenzar a usarlo.'
+},
+{
+  q: '¿El material reemplaza la planificación docente?',
+  a: 'No. GEOLOGÍA PRO no reemplaza tu criterio profesional ni la planificación institucional. Es una herramienta para facilitar, ordenar y enriquecer tu trabajo docente. Podés adaptarlo según tu país, nivel educativo, programa oficial y características del grupo.'
 }];
 
 export function FaqSection() {

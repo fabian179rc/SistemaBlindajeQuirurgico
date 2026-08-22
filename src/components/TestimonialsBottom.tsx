@@ -5,23 +5,30 @@ const testimonials = [
 {
   initial: 'M',
   color: 'bg-pink-100 text-pink-700',
-  name: 'Marcela R.',
-  location: 'Rosario',
-  text: "Mi mamá ahora espera el momento de los ejercicios como si fuera su actividad favorita del día. Se sienta sola, saca la carpeta y empieza."
+  name: 'Mariana R.',
+  location: 'Docente de Ciencias Naturales',
+  text: "Antes tenía que buscar en varios sitios para preparar una clase sobre placas tectónicas. Ahora tengo el contenido, las imágenes, la explicación y la actividad en un solo lugar."
 },
 {
-  initial: 'D',
+  initial: 'C',
   color: 'bg-blue-100 text-blue-700',
-  name: 'Diego F.',
-  location: 'Mendoza',
-  text: 'Lo compré para mi papá y terminamos haciéndolo juntos. Fue la mejor excusa para pasar tiempo de calidad con él.'
+  name: 'Carlos M.',
+  location: 'Profesor de Geografía',
+  text: 'Lo más valioso para mí fue la estructura. Los temas están ordenados de una forma que permite avanzar sin saltos y sin improvisar.'
 },
 {
-  initial: 'V',
+  initial: 'L',
+  color: 'bg-amber-100 text-amber-700',
+  name: 'Lucía P.',
+  location: 'Docente de Secundaria',
+  text: 'Mis estudiantes se engancharon especialmente con las preguntas curiosas. Sirven muchísimo para abrir la clase y generar conversación.'
+},
+{
+  initial: 'A',
   color: 'bg-emerald-100 text-emerald-700',
-  name: 'Lic. Vanesa T.',
-  location: 'Terapeuta Ocupacional — Buenos Aires',
-  text: 'Como terapeuta ocupacional, este material me ahorró horas de preparación. El diseño es elegante y los pacientes lo reciben con respeto.'
+  name: 'Andrés G.',
+  location: 'Profesor de Ciencias de la Tierra',
+  text: 'El material visual hace una diferencia enorme. Temas como sismos, volcanes o erosión se entienden mucho mejor cuando el alumno puede ver el proceso.'
 }];
 
 export function TestimonialsBottom() {
@@ -31,7 +38,7 @@ export function TestimonialsBottom() {
         <div className="text-center mb-8 flex flex-col items-center">
           <MessageCircle className="w-10 h-10 text-[#E0932E] mb-3" />
           <h2 className="font-heading text-3xl md:text-5xl font-bold text-[#EDF2F6]">
-            Lo Que Dicen Familias y Profesionales
+            Lo Que Dicen Docentes que Usan GEOLOGÍA PRO
           </h2>
         </div>
 

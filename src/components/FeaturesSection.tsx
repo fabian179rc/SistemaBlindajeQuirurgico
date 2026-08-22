@@ -3,28 +3,28 @@ import { motion } from "framer-motion";
 import { CheckCircle2 } from "lucide-react";
 const features = [
   {
-    lead: "Estimular su mente sin que se sienta un niño",
-    desc: "Diseño premium y adulto, pensado para respetar su dignidad.",
+    lead: "Reducir el tiempo de preparación",
+    desc: "Partís de material ya organizado: teoría, imágenes, explicaciones, ejemplos y actividades.",
   },
   {
-    lead: "Ganar tiempo de calidad juntos",
-    desc: "El Volumen 6 está pensado para compartir en familia.",
+    lead: "Enseñar con una secuencia lógica",
+    desc: "Los 6 tomos avanzan desde los fundamentos del planeta hasta sus recursos y desafíos futuros.",
   },
   {
-    lead: "Empezar sin dudas ni presión",
-    desc: "Guía de acompañamiento para la primera sesión, sin frustración.",
+    lead: "Explicar conceptos difíciles con claridad",
+    desc: "Tiempo geológico, tectónica, sismicidad, vulcanismo, erosión y minerales con lenguaje accesible.",
   },
   {
-    lead: "Cubrir las 6 funciones cognitivas clave",
-    desc: "Memoria, atención, lenguaje, lógica, cálculo y conexión social.",
+    lead: "Conectar la Geología con la vida real",
+    desc: "Riesgos naturales, paisajes, ciudades, recursos minerales, agua, minería y energía.",
   },
   {
-    lead: "Ver sus avances con claridad",
-    desc: "Registro de progreso incluido, para notar cada pequeño logro.",
+    lead: "Trabajar mejor en clase",
+    desc: "Actividades, preguntas, esquemas, cuadros y evaluaciones para dinamizar la enseñanza.",
   },
   {
-    lead: "Usarlo hoy mismo, sin esperar",
-    desc: "Acceso inmediato por PDF, listo para imprimir a tu ritmo.",
+    lead: "Elevar tu imagen profesional",
+    desc: "Un sistema visualmente cuidado y ordenado, que transmite preparación y dominio.",
   },
 ];
 
@@ -34,7 +34,7 @@ export function FeaturesSection() {
       <div className="container mx-auto px-2 sm:px-4 max-w-3xl">
         <div className="text-center mb-8">
           <h2 className="font-heading text-2xl md:text-4xl font-bold text-[#EDF2F6] max-w-3xl mx-auto leading-snug">
-            Lo que vas a lograr con Kit Mente Activa
+            Lo que vas a lograr con GEOLOGÍA PRO
           </h2>
         </div>
 

@@ -4,38 +4,32 @@ const bonuses = [
   {
     num: 1,
     image: "b1.webp",
-    title: 'Guía de Uso Rápido — "Primera Sesión Sin Dudas"',
-    desc: "En 10 minutos sabés cómo empezar, sin confusión ni presión. Incluye guión de acompañamiento y plan de los primeros 7 días.",
+    title: "Banco de Esquemas y Cuadros",
+    desc: "Plantillas visuales, mapas conceptuales y síntesis para explicar el ciclo de las rocas, los bordes de placa, los volcanes y más.",
   },
   {
     num: 2,
     image: "b2.webp",
-    title: 'Calendario Mente Activa — "30 Días de Constancia Suave"',
-    desc: "Calendario imprimible para convertir el kit en una rutina simple y sostenible, con registro de ánimo.",
+    title: "Guías de Trabajo para Clase",
+    desc: "Consignas listas para analizar imágenes, clasificar rocas, leer mapas y debatir en grupo.",
   },
   {
     num: 3,
     image: "b3.webp",
-    title: 'Manual del Acompañante — "Cómo Guiar Sin Presionar"',
-    desc: "Frases sugeridas, frases a evitar y estrategias para acompañar con respeto y paciencia.",
+    title: "Propuestas de Evaluación y Rúbricas",
+    desc: "Modelos de preguntas, criterios de corrección y rúbricas para medir comprensión y aplicación.",
   },
   {
     num: 4,
     image: "b4.webp",
-    title: 'Bitácora de Avances — "Pequeños Logros que se Ven"',
-    desc: "Registro premium para visualizar avances y preferencias, sin que se sienta una evaluación.",
+    title: "Gestión del Aula: Conflictos, Conducta y Motivación",
+    desc: "Estrategias para motivar estudiantes, manejar interrupciones y sostener clases más fluidas.",
   },
   {
     num: 5,
     image: "b5.webp",
-    title: 'Tu Carpeta Premium — "Guía de Impresión y Organización"',
-    desc: "Separadores, etiquetas y checklist para armar una carpeta física elegante y lista para usar.",
-  },
-  {
-    num: 6,
-    image: "b6.webp",
-    title: 'Conversaciones que Activan — "50 Disparadores para Conectar"',
-    desc: "Preguntas por categorías para transformar los ejercicios en momentos de conexión familiar.",
+    title: "100 Preguntas Curiosas sobre el Planeta",
+    desc: "Preguntas disparadoras en 4 capítulos para abrir clases, generar debate y despertar asombro.",
   },
 ];
 
@@ -45,12 +39,13 @@ export function BonusesSection() {
       <div className="container mx-auto px-4 max-w-4xl">
         <div className="text-center mb-8">
           <h2 className="font-heading font-bold text-[#EDF2F6] text-3xl md:text-5xl leading-tight mb-4">
-            6 Bonos de Regalo{" "}
-            <span className="italic text-[#6FA8C9]">Sin Costo Adicional</span>
+            5 Bonos Complementarios{" "}
+            <span className="italic text-[#6FA8C9]">de Aplicación Inmediata</span>
           </h2>
           <p className="text-sm md:text-base text-[#93A7B8] leading-relaxed max-w-2xl mx-auto">
-            Cada bono te ayuda a usar el kit desde el primer día, sin
-            dudas ni presión.
+            Cada bono resuelve una necesidad concreta: planificar,
+            explicar, trabajar, evaluar, gestionar el aula y despertar
+            curiosidad.
           </p>
         </div>
 
