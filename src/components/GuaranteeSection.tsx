@@ -16,13 +16,13 @@ export function GuaranteeSection() {
 
         <div className="bg-[#16293B] border border-[#E0932E]/20 rounded-3xl p-4 md:p-8 shadow-sm">
           <p className="text-sm md:text-base text-[#93A7B8] leading-relaxed mb-4 md:mb-6">
-            Tenés 7 días corridos para revisar el material. Si Kit
-            Geología PRO 2026 no coincide con lo descripto en esta página, podés
-            solicitar la devolución de tu dinero. Sin trámites
-            complicados.
+            Tenés 7 días para revisar el Sistema Blindaje Quirúrgico
+            2026™. Si el contenido no se corresponde con lo ofrecido en
+            esta página, podés solicitar la devolución según las
+            condiciones de compra. Sin preguntas difíciles.
           </p>
           <div className="inline-flex bg-[#1D3550] px-3 py-1.5 md:px-4 md:py-2 rounded-full border border-[#E0932E]/25 text-[#9CC3DE] font-bold text-xs md:text-sm shadow-sm">
-            Riesgo Cero ✅
+            Sin Riesgo ✅
           </div>
         </div>
       </div>

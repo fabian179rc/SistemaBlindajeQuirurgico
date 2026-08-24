@@ -4,32 +4,32 @@ const bonuses = [
   {
     num: 1,
     image: "b1.webp",
-    title: "Banco de Esquemas y Cuadros",
-    desc: "Plantillas visuales, mapas conceptuales y síntesis para explicar el ciclo de las rocas, los bordes de placa, los volcanes y más.",
+    title: "Plan de Implementación 72H™",
+    desc: "Convertí los 6 tomos en clases reales y organizadas en solo tres días.",
   },
   {
     num: 2,
     image: "b2.webp",
-    title: "Guías de Trabajo para Clase",
-    desc: "Consignas listas para analizar imágenes, clasificar rocas, leer mapas y debatir en grupo.",
+    title: "Guion de Primera Semana Quirúrgica™",
+    desc: "Tus primeras 5 clases completas con apertura, explicación, actividad y cierre.",
   },
   {
     num: 3,
     image: "b3.webp",
-    title: "Propuestas de Evaluación y Rúbricas",
-    desc: "Modelos de preguntas, criterios de corrección y rúbricas para medir comprensión y aplicación.",
+    title: "Banco de Casos Clínicos y Situaciones Críticas™",
+    desc: "Más de 25 escenarios reales para trabajar criterio clínico y toma de decisiones.",
   },
   {
     num: 4,
     image: "b4.webp",
-    title: "Gestión del Aula: Conflictos, Conducta y Motivación",
-    desc: "Estrategias para motivar estudiantes, manejar interrupciones y sostener clases más fluidas.",
+    title: "Adaptador LATAM por País™",
+    desc: "Plantillas para adaptar el sistema a tu país, institución y normativa local.",
   },
   {
     num: 5,
     image: "b5.webp",
-    title: "100 Preguntas Curiosas sobre el Planeta",
-    desc: "Preguntas disparadoras en 4 capítulos para abrir clases, generar debate y despertar asombro.",
+    title: "Auditoría Docente IQ 360™",
+    desc: "Herramienta de diagnóstico para evaluar tu materia actual y crear un plan de mejora.",
   },
 ];
 
@@ -39,13 +39,13 @@ export function BonusesSection() {
       <div className="container mx-auto px-4 max-w-4xl">
         <div className="text-center mb-8">
           <h2 className="font-heading font-bold text-[#EDF2F6] text-3xl md:text-5xl leading-tight mb-4">
-            5 Bonos Complementarios{" "}
-            <span className="italic text-[#6FA8C9]">de Aplicación Inmediata</span>
+            5 Bonos Incluidos{" "}
+            <span className="italic text-[#6FA8C9]">Sin Costo Adicional</span>
           </h2>
           <p className="text-sm md:text-base text-[#93A7B8] leading-relaxed max-w-2xl mx-auto">
-            Cada bono resuelve una necesidad concreta: planificar,
-            explicar, trabajar, evaluar, gestionar el aula y despertar
-            curiosidad.
+            Cada bono resuelve una necesidad concreta: implementar el
+            sistema, dar tus primeras clases, trabajar casos clínicos,
+            adaptar el material a tu país y auditar tu materia.
           </p>
         </div>
 

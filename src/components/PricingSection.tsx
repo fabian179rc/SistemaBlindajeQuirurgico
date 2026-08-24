@@ -9,17 +9,17 @@ export function PricingSection() {
     >
       <div className="container mx-auto px-4 max-w-2xl text-center relative z-10">
         <span className="inline-block px-6 py-2.5 mb-6 rounded-full border border-white/30 bg-white/10 text-white/90 font-semibold tracking-[0.18em] uppercase text-xs">
-          Precio de Lanzamiento
+          Precio Especial de Lanzamiento
         </span>
         <h2 className="font-heading text-3xl md:text-5xl font-bold text-white leading-tight mb-6">
-          Kit Geología PRO 2026{" "}
+          Sistema Blindaje Quirúrgico 2026™{" "}
           <em className="italic font-bold text-[#CFE0EC]">Completo</em>
         </h2>
 
         <div className="relative inline-block mb-2 w-full max-w-md mx-auto">
           <img
             src={`${import.meta.env.BASE_URL}mockup9.webp`}
-            alt="Kit Geología PRO 2026 — Sistema Integral de Recursos Educativos para Docentes de Ciencias de la Tierra"
+            alt="Sistema Blindaje Quirúrgico 2026 — 6 Tomos + 5 Bonos para Docentes de Instrumentación Quirúrgica"
             width={900}
             height={900}
             loading="lazy"
@@ -36,7 +36,7 @@ export function PricingSection() {
               }}
             />
             <div className="relative text-center text-white leading-none rotate-12">
-              <div className="text-2xl md:text-3xl font-extrabold">75%</div>
+              <div className="text-2xl md:text-3xl font-extrabold">51%</div>
               <div className="text-[9px] md:text-[10px] font-bold tracking-wide mt-0.5">
                 OFF
               </div>
@@ -51,8 +51,8 @@ export function PricingSection() {
       >
         <div className="bg-[#16293B] rounded-3xl shadow-2xl shadow-black/30 p-7 md:p-8 text-center">
           <div className="text-[#93A7B8] text-base md:text-lg mb-3">
-            Precio Habitual:{" "}
-            <span className="line-through">$68 USD</span>
+            Precio Normal:{" "}
+            <span className="line-through">$380 USD</span>
           </div>
 
           <div className="inline-flex items-center gap-2 bg-[#E0932E] text-[#0E1E2E] font-bold px-5 py-2.5 rounded-full text-sm mb-5">
@@ -63,7 +63,7 @@ export function PricingSection() {
             Precio de lanzamiento:
           </p>
           <div className="font-heading text-5xl md:text-7xl font-bold text-[#E0932E] leading-none mb-2 whitespace-nowrap">
-            $19 USD
+            $97 USD
           </div>
           <p className="text-[#93A7B8] text-sm mb-6">
             👁️ 14 docentes viendo esto ahora
@@ -76,35 +76,35 @@ export function PricingSection() {
             className="flex items-center justify-center gap-2 sm:gap-3 w-full bg-[#E0932E] hover:bg-[#C97D22] text-[#0E1E2E] font-bold text-[11.5px] sm:text-base md:text-lg px-5 py-4 sm:px-6 md:py-5 rounded-full shadow-lg shadow-[#E0932E]/30 transition-all duration-150 hover:scale-[1.02] active:scale-[0.98] mb-6 whitespace-nowrap md:whitespace-normal"
           >
             <span className="flex items-center gap-2 text-center">
-              🌍 Sí, Quiero Acceder Ahora
+              🔥 Sí, Quiero Acceder Ahora
             </span>
             <ArrowRight className="w-4 h-4 sm:w-5 sm:h-5 md:w-6 md:h-6 flex-shrink-0" />
           </a>
 
           <div className="flex flex-wrap justify-center gap-x-3 gap-y-1.5 text-sm text-[#93A7B8] font-medium">
             <span>
+              <span aria-hidden="true">⚡</span> Acceso Inmediato
+            </span>
+            <span>
               <span aria-hidden="true">💳</span> Pago Único
             </span>
             <span>
-              <span aria-hidden="true">🛡️</span> Garantía 7 Días
+              <span aria-hidden="true">🛡️</span> Garantía de 7 Días
             </span>
             <span>
               <span aria-hidden="true">🔒</span> Pago Seguro
             </span>
-            <span>
-              <span aria-hidden="true">♾️</span> Acceso Permanente
-            </span>
           </div>
 
           <ul className="mt-6 pt-6 border-t border-white/10 text-left space-y-2 text-sm text-emerald-400">
-            <li>✓ Tomo 1: El Planeta Dinámico</li>
-            <li>✓ Tomo 2: El Código de las Rocas</li>
-            <li>✓ Tomo 3: Arquitectura de la Tierra</li>
-            <li>✓ Tomo 4: Escultores del Paisaje</li>
-            <li>✓ Tomo 5: Geología en Acción</li>
-            <li>✓ Tomo 6: Riqueza y Futuro</li>
-            <li>✓ Los 5 Bonos Complementarios incluidos</li>
-            <li>✓ Acceso de por vida</li>
+            <li>✓ Tomo 1: Fundamentos y Seguridad Perioperatoria</li>
+            <li>✓ Tomo 2: Instrumental Quirúrgico Completo</li>
+            <li>✓ Tomo 3: Especialidades Quirúrgicas</li>
+            <li>✓ Tomo 4: Protocolos, Conteo y Control del Quirófano</li>
+            <li>✓ Tomo 5: Simulación Clínica y Casos Prácticos</li>
+            <li>✓ Tomo 6: Planificación Docente 2026</li>
+            <li>✓ Los 5 Bonos incluidos sin costo adicional</li>
+            <li>✓ Pago único. Acceso instantáneo desde hoy</li>
           </ul>
         </div>
       </div>

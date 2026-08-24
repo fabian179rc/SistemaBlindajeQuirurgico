@@ -3,32 +3,25 @@ import { motion } from 'framer-motion';
 import { Star, MessageCircle } from 'lucide-react';
 const testimonials = [
 {
-  initial: 'M',
-  color: 'bg-pink-100 text-pink-700',
-  name: 'Mariana R.',
-  location: 'Docente de Ciencias Naturales',
-  text: "Antes tenía que buscar en varios sitios para preparar una clase sobre placas tectónicas. Ahora tengo el contenido, las imágenes, la explicación y la actividad en un solo lugar."
-},
-{
-  initial: 'C',
-  color: 'bg-blue-100 text-blue-700',
-  name: 'Carlos M.',
-  location: 'Profesor de Geografía',
-  text: 'Lo más valioso para mí fue la estructura. Los temas están ordenados de una forma que permite avanzar sin saltos y sin improvisar.'
-},
-{
-  initial: 'L',
-  color: 'bg-amber-100 text-amber-700',
-  name: 'Lucía P.',
-  location: 'Docente de Secundaria',
-  text: 'Mis estudiantes se engancharon especialmente con las preguntas curiosas. Sirven muchísimo para abrir la clase y generar conversación.'
-},
-{
   initial: 'A',
+  color: 'bg-blue-100 text-blue-700',
+  name: 'Alejandro S.',
+  location: 'Docente — Instituto Superior, Río Negro, Argentina',
+  text: 'Antes me llevaba semanas armar la planificación. Ahora tengo todo el año organizado con los protocolos 2026 y los casos integrados.'
+},
+{
+  initial: 'F',
+  color: 'bg-amber-100 text-amber-700',
+  name: 'Federico M.',
+  location: 'Docente — Instituto Tecnológico, Ciudad de México',
+  text: 'El sistema me permitió explicar el Checklist OMS con contexto real de mi país. Mis alumnos ahora entienden la responsabilidad del instrumentador.'
+},
+{
+  initial: 'R',
   color: 'bg-emerald-100 text-emerald-700',
-  name: 'Andrés G.',
-  location: 'Profesor de Ciencias de la Tierra',
-  text: 'El material visual hace una diferencia enorme. Temas como sismos, volcanes o erosión se entienden mucho mejor cuando el alumno puede ver el proceso.'
+  name: 'Rodrigo T.',
+  location: 'Docente — SENA, Santa Marta, Colombia',
+  text: 'El Bono de Adaptación LATAM me ayudó a contextualizar todo el material a la normativa colombiana sin tener que reescribir nada.'
 }];
 
 export function TestimonialsBottom() {
@@ -38,7 +31,7 @@ export function TestimonialsBottom() {
         <div className="text-center mb-8 flex flex-col items-center">
           <MessageCircle className="w-10 h-10 text-[#E0932E] mb-3" />
           <h2 className="font-heading text-3xl md:text-5xl font-bold text-[#EDF2F6]">
-            Lo Que Dicen Docentes que Usan Kit Geología PRO 2026
+            Lo Que Dicen Otros Docentes
           </h2>
         </div>
 

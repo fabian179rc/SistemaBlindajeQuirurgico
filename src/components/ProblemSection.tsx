@@ -3,28 +3,23 @@ import { motion } from 'framer-motion';
 const pains = [
 {
   emoji: '🗂️',
-  title: 'Recursos Dispersos',
-  desc: 'Tenés PDFs sueltos, videos aislados, imágenes de internet y apuntes viejos sin una secuencia clara.'
+  title: 'Material Disperso',
+  desc: 'Apuntes, PDFs sueltos y manuales desactualizados. Cada clase, volvés a empezar desde cero.'
 },
 {
   emoji: '⏱️',
-  title: 'Preparación que Consume Horas',
-  desc: 'Una clase sobre tectónica, minerales o volcanes puede llevarte horas de búsqueda y armado.'
+  title: 'Clases que Llevan Horas',
+  desc: 'Preparar una sola clase te consume tiempo que podrías usar para atender otras materias o mejorar tu práctica docente.'
 },
 {
   emoji: '📌',
-  title: 'Explicaciones Difíciles de Aterrizar',
-  desc: 'Escalas de millones de años y procesos invisibles se vuelven abstractos sin recursos visuales.'
-},
-{
-  emoji: '🌋',
-  title: 'Alumnos que se Interesan… pero se Pierden',
-  desc: 'Los volcanes y terremotos despiertan curiosidad, pero se apaga rápido sin una estructura didáctica clara.'
+  title: 'Falta de Casos Reales',
+  desc: 'Explicás conceptos, pero no tenés escenarios clínicos actualizados para que tus alumnos piensen como instrumentadores.'
 },
 {
   emoji: '🎯',
-  title: 'Faltan Actividades Listas para Aplicar',
-  desc: 'Sabés explicar el tema, pero no siempre tenés a mano una actividad o evaluación lista para usar.'
+  title: 'Baja Participación',
+  desc: 'Tus alumnos se desconectan porque el material no refleja la realidad actual del quirófano ni los protocolos vigentes en 2026.'
 }];
 
 export function ProblemSection() {
@@ -33,27 +28,27 @@ export function ProblemSection() {
       <div className="container mx-auto px-4 max-w-4xl">
         <div className="text-center mb-6">
           <h2 className="font-heading text-3xl md:text-5xl font-bold mb-4 text-[#EDF2F6]">
-            ¿Te falta estructura para enseñar Geología sin perder horas preparando cada clase?
+            ¿Te falta estructura para enseñar sin improvisar?
           </h2>
           <p className="text-sm md:text-base text-[#93A7B8] leading-relaxed max-w-2xl mx-auto">
-            Sabés que la Tierra se mueve, que las rocas cuentan historias
-            y que los volcanes y terremotos no ocurren al azar. Pero
-            preparar la clase implica buscar información en varios
-            sitios, adaptar textos técnicos, armar actividades y lograr
-            que todo tenga sentido para tus estudiantes.
+            Sabés los contenidos de Instrumentación Quirúrgica, pero cada
+            ciclo lectivo se convierte en horas de búsqueda, armado de
+            clases desde cero y dudas sobre qué incluir, cómo evaluarlo o
+            cómo conectarlo con la realidad del quirófano de tu país.
           </p>
         </div>
 
         <div className="bg-[#16293B] border border-[#E0932E]/20 text-[#EDF2F6] rounded-2xl p-3 md:p-4 shadow-sm text-center mb-5 max-w-2xl mx-auto">
           <p className="md:text-lg font-medium text-[#DCE6ED] text-[15px]">
-            ⚡ Ese no es un problema de capacidad docente. Es un problema
-            de sistema.
+            ⚡ Ese no es un problema de conocimiento. Es un problema de
+            sistema.
           </p>
         </div>
 
         <p className="text-center text-sm md:text-base text-[#93A7B8] leading-relaxed max-w-2xl mx-auto mb-5">
-          Si enseñás Ciencias Naturales, Geografía, Biología o Ciencias de
-          la Tierra, probablemente ya viviste estas situaciones:
+          Si sos docente de Instrumentación Quirúrgica en Argentina, México,
+          Colombia, Chile, Perú o cualquier país de LATAM, probablemente ya
+          viviste esto:
         </p>
 
         <div className="grid sm:grid-cols-2 gap-2">

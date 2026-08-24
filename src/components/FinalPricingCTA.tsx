@@ -18,20 +18,22 @@ export function FinalPricingCTA() {
           </span>
         </div>
         <h2 className="text-3xl md:text-5xl font-bold font-heading text-[#EDF2F6] mb-8 leading-tight">
-          Más Claridad. Más Estructura. Menos Improvisación.
+          Más Orden, Más Claridad y Mejor Nivel en tus Clases de
+          Instrumentación Quirúrgica.
         </h2>
 
         <div className="bg-[#16293B] border border-[#E0932E]/20 rounded-3xl p-6 md:p-7 shadow-lg shadow-black/20 max-w-xl mx-auto mb-6">
           <h3 className="font-bold text-[#6FA8C9] mb-2 text-sm md:text-base max-w-xs sm:max-w-none mx-auto">
-            🎁 Kit Geología PRO 2026 — 6 Tomos + 5 Bonos
+            🎁 Kit Completo: Sistema Blindaje Quirúrgico 2026™ + 5 Bonos
+            Incluidos
           </h3>
-          <div className="text-[#93A7B8] line-through mb-2">$68 USD</div>
+          <div className="text-[#93A7B8] line-through mb-2">$380 USD</div>
           <div className="text-4xl font-bold text-[#E0932E] mb-2">
-            $19 USD
+            $97 USD
           </div>
           <p className="text-[#93A7B8] text-sm mb-6">
-            Pago único. Acceso inmediato y permanente. Incluye los 6
-            tomos + los 5 bonos sin costo adicional.
+            Pago único. Acceso instantáneo desde hoy. Incluye los 6 tomos +
+            los 5 bonos sin costo adicional.
           </p>
           <motion.a
             href={getCheckoutUrl()}
@@ -45,7 +47,7 @@ export function FinalPricingCTA() {
             className="flex items-center justify-center gap-2 sm:gap-3 w-full bg-[#E0932E] hover:bg-[#C97D22] text-[#0E1E2E] font-bold text-[11.5px] sm:text-base md:text-lg px-5 py-4 sm:px-6 md:py-5 rounded-full shadow-lg shadow-[#E0932E]/30 transition-colors mb-4 whitespace-nowrap md:whitespace-normal"
           >
             <span className="text-center">
-              🌍 Quiero Empezar Hoy
+              🚀 Quiero Empezar Hoy
             </span>
             <ArrowRight className="w-4 h-4 sm:w-5 sm:h-5 md:w-6 md:h-6 flex-shrink-0" />
           </motion.a>
@@ -53,19 +55,13 @@ export function FinalPricingCTA() {
 
         <div className="flex flex-col sm:flex-row justify-center items-center gap-1.5 sm:gap-4 text-xs sm:text-sm leading-tight text-[#93A7B8] font-medium">
           <span>
-            <span aria-hidden="true">⭐</span> Material diseñado para docentes
+            <span aria-hidden="true">⭐⭐⭐⭐⭐</span> 4.9/5 — Valoración de usuarios
           </span>
           <span aria-hidden="true" className="hidden sm:inline text-white/15">
             |
           </span>
           <span>
-            <span aria-hidden="true">🛡️</span> Garantía 7 Días
-          </span>
-          <span aria-hidden="true" className="hidden sm:inline text-white/15">
-            |
-          </span>
-          <span>
-            <span aria-hidden="true">🔒</span> Pago Seguro
+            <span aria-hidden="true">🛡️</span> Garantía de 7 Días — Riesgo Cero
           </span>
         </div>
       </div>

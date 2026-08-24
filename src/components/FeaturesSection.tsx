@@ -3,28 +3,24 @@ import { motion } from "framer-motion";
 import { CheckCircle2 } from "lucide-react";
 const features = [
   {
-    lead: "Reducir el tiempo de preparación",
-    desc: "Partís de material ya organizado: teoría, imágenes, explicaciones, ejemplos y actividades.",
+    lead: "Ahorrar tiempo en preparación",
+    desc: "Dejá de armar cada clase desde cero. Usá guías, secuencias y casos listos para adaptar a tu institución.",
   },
   {
-    lead: "Enseñar con una secuencia lógica",
-    desc: "Los 6 tomos avanzan desde los fundamentos del planeta hasta sus recursos y desafíos futuros.",
+    lead: "Trabajar con más orden pedagógico",
+    desc: "Organizá todo el ciclo lectivo con planificación anual, unidades didácticas y rúbricas claras.",
   },
   {
-    lead: "Explicar conceptos difíciles con claridad",
-    desc: "Tiempo geológico, tectónica, sismicidad, vulcanismo, erosión y minerales con lenguaje accesible.",
+    lead: "Enseñar con casos clínicos reales",
+    desc: "Aplicá situaciones quirúrgicas concretas para desarrollar criterio clínico en tus alumnos.",
   },
   {
-    lead: "Conectar la Geología con la vida real",
-    desc: "Riesgos naturales, paisajes, ciudades, recursos minerales, agua, minería y energía.",
+    lead: "Presentarte mejor ante tus alumnos e institución",
+    desc: "Entregá material sólido, actualizado y profesional que aumente la percepción de valor de tu clase.",
   },
   {
-    lead: "Trabajar mejor en clase",
-    desc: "Actividades, preguntas, esquemas, cuadros y evaluaciones para dinamizar la enseñanza.",
-  },
-  {
-    lead: "Elevar tu imagen profesional",
-    desc: "Un sistema visualmente cuidado y ordenado, que transmite preparación y dominio.",
+    lead: "Cerrar cada ciclo con control",
+    desc: "Sabé exactamente qué enseñar, cómo evaluarlo y qué resultados estás logrando.",
   },
 ];
 
@@ -34,7 +30,7 @@ export function FeaturesSection() {
       <div className="container mx-auto px-2 sm:px-4 max-w-3xl">
         <div className="text-center mb-8">
           <h2 className="font-heading text-2xl md:text-4xl font-bold text-[#EDF2F6] max-w-3xl mx-auto leading-snug">
-            Lo que vas a lograr con Kit Geología PRO 2026
+            Con Este Sistema Vas a Poder
           </h2>
         </div>
 

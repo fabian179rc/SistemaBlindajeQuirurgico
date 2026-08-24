@@ -2,12 +2,12 @@ import React, { useEffect, createElement } from "react";
 import { Landing } from "./pages/Landing";
 import { useScreenInit } from "./useScreenInit";
 const PAGE_TITLE =
-  "Kit Geología PRO 2026 — Sistema Integral de Recursos Educativos para Docentes de Ciencias de la Tierra";
+  "Sistema Blindaje Quirúrgico 2026 — Sistema Integral de Recursos Educativos para Docentes de Instrumentación Quirúrgica";
 const PAGE_DESC =
-  "6 tomos digitales + 5 bonos con clases visuales, actividades y evaluaciones listas para enseñar Geología con estructura y profundidad: desde el origen del planeta hasta minerales, tectónica, volcanes y recursos naturales.";
+  "6 tomos digitales + 5 bonos con guías didácticas, casos clínicos resueltos, protocolos de seguridad y herramientas de evaluación, listos para descargar y usar desde el primer día en tu materia de Instrumentación Quirúrgica.";
 const HERO_IMAGE = `${import.meta.env.BASE_URL}mockup9.webp`;
 
-const SITE_URL = "https://geologia-lista.tupuntodigital.shop";
+const SITE_URL = "https://sistemablindaje2026.tupuntodigital.shop";
 function setMeta(attr: "name" | "property", key: string, content: string) {
   let el = document.head.querySelector<HTMLMetaElement>(
     `meta[${attr}="${key}"]`,
@@ -56,7 +56,7 @@ export function App() {
     setMeta("property", "og:locale", "es_LA");
     setMeta("property", "og:image", HERO_IMAGE);
     setMeta("property", "og:url", SITE_URL);
-    setMeta("property", "og:site_name", "Kit Geología PRO 2026");
+    setMeta("property", "og:site_name", "Sistema Blindaje Quirúrgico 2026");
     setMeta("name", "twitter:card", "summary_large_image");
     setMeta("name", "twitter:image", HERO_IMAGE);
     setMeta("name", "twitter:title", PAGE_TITLE);
@@ -69,19 +69,19 @@ export function App() {
       ld.textContent = JSON.stringify({
         "@context": "https://schema.org",
         "@type": "Product",
-        name: "Kit Geología PRO 2026 — Sistema Integral de Recursos Educativos para Docentes de Ciencias de la Tierra",
+        name: "Sistema Blindaje Quirúrgico 2026 — Sistema Integral de Recursos Educativos para Docentes de Instrumentación Quirúrgica",
         description: PAGE_DESC,
         image: HERO_IMAGE,
         brand: {
           "@type": "Brand",
-          name: "Kit Geología PRO 2026",
+          name: "Sistema Blindaje Quirúrgico 2026",
         },
         offers: {
           "@type": "Offer",
-          price: "19",
+          price: "97",
           priceCurrency: "USD",
           availability: "https://schema.org/InStock",
-          url: "https://kitgeologialista.impultienda.ar/checkout",
+          url: "https://sistemablindajequirurgico.impultienda.ar/checkout",
         },
       });
       document.head.appendChild(ld);
@@ -97,27 +97,23 @@ export function App() {
         mainEntity: [
           {
             q: "¿Es un producto físico o digital?",
-            a: "Es un producto 100% digital. Recibís acceso al material en formato PDF de alta resolución para descargarlo y utilizarlo desde tu computadora, tablet o dispositivo móvil.",
+            a: "Es un producto 100% digital. Recibís el acceso al material después de la compra para descargarlo y usarlo desde tu computadora, tablet o celular en formato PDF.",
           },
           {
-            q: "¿Puedo imprimirlo?",
-            a: "Sí. Podés imprimir los tomos, las guías, los esquemas, las actividades y las evaluaciones para usarlas en clase.",
+            q: "¿Sirve para cualquier país de Latinoamérica?",
+            a: "Sí. El sistema está diseñado para LATAM y el Bono 4 te permite adaptar el contenido a tu país e institución.",
           },
           {
-            q: "¿Sirve para secundaria?",
-            a: "Sí. Es especialmente útil para secundaria y bachillerato, aunque también puede adaptarse a formación docente, cursos introductorios, talleres ambientales y primeros años de nivel superior.",
+            q: "¿Necesito experiencia previa para usarlo?",
+            a: "No. El Tomo 1 empieza desde los fundamentos y los bonos están pensados para docentes que recién comienzan o quieren ordenar su materia.",
           },
           {
-            q: "¿Necesito ser especialista en geología?",
-            a: "No necesariamente. El material está pensado para docentes que necesitan explicar Ciencias de la Tierra con claridad, aunque no sean geólogos profesionales.",
+            q: "¿Cuándo recibo el acceso?",
+            a: "Inmediatamente después de la compra. El acceso es instantáneo.",
           },
           {
-            q: "¿Incluye actividades?",
-            a: "Sí. Además de las actividades integradas en los tomos, recibís bonos específicos con guías de trabajo, esquemas, evaluaciones, rúbricas y preguntas disparadoras.",
-          },
-          {
-            q: "¿El pago es por única vez o me van a cobrar una suscripción?",
-            a: "Es un pago único, para siempre. Sin suscripciones, sin cargos adicionales, sin sorpresas. Pagás una sola vez y el material es tuyo de por vida, incluyendo las actualizaciones futuras.",
+            q: "¿Reemplaza la formación universitaria o el asesoramiento institucional?",
+            a: "No. Es una herramienta de apoyo pedagógico y organizacional. Debe adaptarse a la normativa y diseño curricular de cada institución.",
           },
         ].map((item) => ({
           "@type": "Question",

@@ -4,39 +4,23 @@ import { Plus, Minus } from 'lucide-react';
 const faqs = [
 {
   q: '¿Es un producto físico o digital?',
-  a: 'Es un producto 100% digital. Recibís acceso al material en formato PDF de alta resolución para descargarlo y utilizarlo desde tu computadora, tablet o dispositivo móvil.'
+  a: 'Es un producto 100% digital. Recibís el acceso al material después de la compra para descargarlo y usarlo desde tu computadora, tablet o celular en formato PDF.'
 },
 {
-  q: '¿Puedo imprimirlo?',
-  a: 'Sí. Podés imprimir los tomos, las guías, los esquemas, las actividades y las evaluaciones para usarlas en clase.'
+  q: '¿Sirve para cualquier país de Latinoamérica?',
+  a: 'Sí. El sistema está diseñado para LATAM y el Bono 4 te permite adaptar el contenido a tu país e institución.'
 },
 {
-  q: '¿Puedo proyectarlo en el aula?',
-  a: 'Sí. El material está diseñado para ser visual y claro, por lo que podés usarlo como apoyo en tus clases, proyectarlo o compartir fragmentos con tus estudiantes según el uso educativo permitido.'
-},
-{
-  q: '¿Sirve para secundaria?',
-  a: 'Sí. Es especialmente útil para secundaria y bachillerato, aunque también puede adaptarse a formación docente, cursos introductorios, talleres ambientales y primeros años de nivel superior.'
-},
-{
-  q: '¿Necesito ser especialista en geología?',
-  a: 'No necesariamente. El material está pensado para docentes que necesitan explicar Ciencias de la Tierra con claridad, aunque no sean geólogos profesionales. Cada tema está desarrollado con lenguaje accesible y estructura didáctica.'
-},
-{
-  q: '¿Incluye actividades?',
-  a: 'Sí. Además de las actividades integradas en los tomos, recibís bonos específicos con guías de trabajo, esquemas, evaluaciones, rúbricas y preguntas disparadoras.'
-},
-{
-  q: '¿Los ejemplos son solo globales o incluyen Hispanoamérica?',
-  a: 'Incluyen contexto global y también ejemplos especialmente pensados para Hispanoamérica: volcanes, terremotos, cordilleras, recursos minerales, paisajes, agua y riesgos naturales de la región.'
+  q: '¿Necesito experiencia previa para usarlo?',
+  a: 'No. El Tomo 1 empieza desde los fundamentos y los bonos están pensados para docentes que recién comienzan o quieren ordenar su materia.'
 },
 {
   q: '¿Cuándo recibo el acceso?',
-  a: 'Después de la compra, recibís el acceso al material digital para descargarlo y comenzar a usarlo.'
+  a: 'Inmediatamente después de la compra. El acceso es instantáneo.'
 },
 {
-  q: '¿El material reemplaza la planificación docente?',
-  a: 'No. Kit Geología PRO 2026 no reemplaza tu criterio profesional ni la planificación institucional. Es una herramienta para facilitar, ordenar y enriquecer tu trabajo docente. Podés adaptarlo según tu país, nivel educativo, programa oficial y características del grupo.'
+  q: '¿Reemplaza la formación universitaria o el asesoramiento institucional?',
+  a: 'No. Es una herramienta de apoyo pedagógico y organizacional. Debe adaptarse a la normativa y diseño curricular de cada institución.'
 }];
 
 export function FaqSection() {
