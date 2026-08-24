@@ -46,8 +46,7 @@ export function ProblemSection() {
         </div>
 
         <p className="text-center text-sm md:text-base text-[#93A7B8] leading-relaxed max-w-2xl mx-auto mb-5">
-          Si sos docente de Instrumentación Quirúrgica en Argentina, México,
-          Colombia, Chile, Perú o cualquier país de LATAM, probablemente ya
+          Si sos docente de Instrumentación Quirúrgica, probablemente ya
           viviste esto:
         </p>
 

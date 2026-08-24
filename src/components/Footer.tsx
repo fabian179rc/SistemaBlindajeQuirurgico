@@ -34,7 +34,7 @@ export function Footer() {
 
         <div className="text-xs text-[#5C7488]">
           <p>
-            © 2026 Sistema Blindaje Quirúrgico 2026™ — Todos los derechos
+            © 2026 Sistema Blindaje Quirúrgico 2026 — Todos los derechos
             reservados.
           </p>
         </div>

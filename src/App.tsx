@@ -78,7 +78,7 @@ export function App() {
         },
         offers: {
           "@type": "Offer",
-          price: "97",
+          price: "19",
           priceCurrency: "USD",
           availability: "https://schema.org/InStock",
           url: "https://sistemablindajequirurgico.impultienda.ar/checkout",

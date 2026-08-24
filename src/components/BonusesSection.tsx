@@ -4,31 +4,31 @@ const bonuses = [
   {
     num: 1,
     image: "b1.webp",
-    title: "Plan de Implementación 72H™",
+    title: "Plan de Implementación 72H",
     desc: "Convertí los 6 tomos en clases reales y organizadas en solo tres días.",
   },
   {
     num: 2,
     image: "b2.webp",
-    title: "Guion de Primera Semana Quirúrgica™",
+    title: "Guion de Primera Semana Quirúrgica",
     desc: "Tus primeras 5 clases completas con apertura, explicación, actividad y cierre.",
   },
   {
     num: 3,
     image: "b3.webp",
-    title: "Banco de Casos Clínicos y Situaciones Críticas™",
+    title: "Banco de Casos Clínicos y Situaciones Críticas",
     desc: "Más de 25 escenarios reales para trabajar criterio clínico y toma de decisiones.",
   },
   {
     num: 4,
     image: "b4.webp",
-    title: "Adaptador LATAM por País™",
+    title: "Adaptador LATAM por País",
     desc: "Plantillas para adaptar el sistema a tu país, institución y normativa local.",
   },
   {
     num: 5,
     image: "b5.webp",
-    title: "Auditoría Docente IQ 360™",
+    title: "Auditoría Docente IQ 360",
     desc: "Herramienta de diagnóstico para evaluar tu materia actual y crear un plan de mejora.",
   },
 ];

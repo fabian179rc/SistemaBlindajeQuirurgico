@@ -11,11 +11,12 @@ export function HeroSection() {
       </div>
 
       <div className="container mx-auto px-4 relative z-10 max-w-3xl md:max-w-6xl lg:max-w-7xl text-center">
-        <h1 className="font-heading font-extrabold text-[#EDF2F6] mb-2 md:mb-3 text-[32px] leading-snug sm:text-5xl md:text-7xl md:leading-tight lg:text-8xl">
-          Tu Materia de Instrumentación Quirúrgica,
+        <h1 className="font-heading font-extrabold text-[#EDF2F6] mb-2 md:mb-3 text-[22px] leading-snug sm:text-4xl md:text-4xl md:leading-tight lg:text-5xl">
+          Tu materia de Instrumentación
           <br />
+          Quirúrgica,{" "}
           <span className="text-[#E0932E]">
-            Lista. Desde Hoy.
+            lista desde hoy.
           </span>
         </h1>
 
@@ -32,10 +33,9 @@ export function HeroSection() {
           />
         </div>
 
-        <p className="md:text-xl text-[#93A7B8] mb-3 max-w-2xl mx-auto text-[12px] leading-relaxed">
-          Guías didácticas, modelos de planificación, fichas técnicas, casos
-          clínicos resueltos, protocolos de seguridad y herramientas de
-          evaluación, listos para descargar y usar desde el primer día.
+        <p className="md:text-xl text-[#93A7B8] mb-3 max-w-2xl mx-auto text-[11px] leading-relaxed">
+          6 tomos digitales para planificar, explicar, evaluar y llevar la
+          práctica quirúrgica al aula sin preparar todo desde cero.
         </p>
 
         <ul className="text-center mx-auto mb-3 max-w-md text-emerald-400 text-[12px] md:text-base space-y-1">

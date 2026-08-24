@@ -29,15 +29,9 @@ export function FaqSection() {
     <section className="py-10 md:py-14 bg-transparent">
       <div className="container mx-auto px-4 max-w-3xl">
         <div className="text-center mb-8">
-          <span className="inline-block px-6 py-2.5 mb-5 rounded-full border border-white/15 bg-[#1D3550] text-[#EDF2F6] font-semibold tracking-[0.18em] uppercase text-xs">
+          <span className="inline-block px-6 py-2.5 rounded-full border border-white/15 bg-[#1D3550] text-[#EDF2F6] font-semibold tracking-[0.18em] uppercase text-xs">
             Preguntas Frecuentes
           </span>
-          <h2 className="font-heading text-4xl md:text-5xl font-bold text-[#EDF2F6] leading-tight">
-            Respuestas a tus{" "}
-            <em className="text-[#E0932E] font-bold italic">
-              consultas habituales
-            </em>
-          </h2>
         </div>
 
         <div className="space-y-4">

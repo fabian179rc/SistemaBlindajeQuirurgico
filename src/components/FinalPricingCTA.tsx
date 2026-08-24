@@ -18,18 +18,17 @@ export function FinalPricingCTA() {
           </span>
         </div>
         <h2 className="text-3xl md:text-5xl font-bold font-heading text-[#EDF2F6] mb-8 leading-tight">
-          Más Orden, Más Claridad y Mejor Nivel en tus Clases de
-          Instrumentación Quirúrgica.
+          Más Orden. Más Claridad. Mejor Nivel.
         </h2>
 
         <div className="bg-[#16293B] border border-[#E0932E]/20 rounded-3xl p-6 md:p-7 shadow-lg shadow-black/20 max-w-xl mx-auto mb-6">
           <h3 className="font-bold text-[#6FA8C9] mb-2 text-sm md:text-base max-w-xs sm:max-w-none mx-auto">
-            🎁 Kit Completo: Sistema Blindaje Quirúrgico 2026™ + 5 Bonos
+            🎁 Kit Completo: Sistema Blindaje Quirúrgico 2026 + 5 Bonos
             Incluidos
           </h3>
-          <div className="text-[#93A7B8] line-through mb-2">$380 USD</div>
+          <div className="text-[#93A7B8] line-through mb-2">$97 USD</div>
           <div className="text-4xl font-bold text-[#E0932E] mb-2">
-            $97 USD
+            $19 USD
           </div>
           <p className="text-[#93A7B8] text-sm mb-6">
             Pago único. Acceso instantáneo desde hoy. Incluye los 6 tomos +

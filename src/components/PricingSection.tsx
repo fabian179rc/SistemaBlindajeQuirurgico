@@ -12,7 +12,7 @@ export function PricingSection() {
           Precio Especial de Lanzamiento
         </span>
         <h2 className="font-heading text-3xl md:text-5xl font-bold text-white leading-tight mb-6">
-          Sistema Blindaje Quirúrgico 2026™{" "}
+          Sistema Blindaje Quirúrgico 2026{" "}
           <em className="italic font-bold text-[#CFE0EC]">Completo</em>
         </h2>
 
@@ -36,7 +36,7 @@ export function PricingSection() {
               }}
             />
             <div className="relative text-center text-white leading-none rotate-12">
-              <div className="text-2xl md:text-3xl font-extrabold">51%</div>
+              <div className="text-2xl md:text-3xl font-extrabold">80%</div>
               <div className="text-[9px] md:text-[10px] font-bold tracking-wide mt-0.5">
                 OFF
               </div>
@@ -52,7 +52,7 @@ export function PricingSection() {
         <div className="bg-[#16293B] rounded-3xl shadow-2xl shadow-black/30 p-7 md:p-8 text-center">
           <div className="text-[#93A7B8] text-base md:text-lg mb-3">
             Precio Normal:{" "}
-            <span className="line-through">$380 USD</span>
+            <span className="line-through">$97 USD</span>
           </div>
 
           <div className="inline-flex items-center gap-2 bg-[#E0932E] text-[#0E1E2E] font-bold px-5 py-2.5 rounded-full text-sm mb-5">
@@ -63,7 +63,7 @@ export function PricingSection() {
             Precio de lanzamiento:
           </p>
           <div className="font-heading text-5xl md:text-7xl font-bold text-[#E0932E] leading-none mb-2 whitespace-nowrap">
-            $97 USD
+            $19 USD
           </div>
           <p className="text-[#93A7B8] text-sm mb-6">
             👁️ 14 docentes viendo esto ahora
@@ -96,7 +96,7 @@ export function PricingSection() {
             </span>
           </div>
 
-          <ul className="mt-6 pt-6 border-t border-white/10 text-left space-y-2 text-sm text-emerald-400">
+          <ul className="mt-6 pt-6 border-t border-white/10 text-left space-y-2 text-xs text-emerald-400">
             <li>✓ Tomo 1: Fundamentos y Seguridad Perioperatoria</li>
             <li>✓ Tomo 2: Instrumental Quirúrgico Completo</li>
             <li>✓ Tomo 3: Especialidades Quirúrgicas</li>
